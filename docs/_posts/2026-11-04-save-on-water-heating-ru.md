@@ -37,7 +37,7 @@ date: 2026-11-04
 
 ## Что понадобится
 
-1. Розетка с прошивкой [Tasmota](https://tasmota.github.io/docs/) или **Shelly** —
+1. Розетка с прошивкой [Tasmota](https://tasmota.github.io/docs/), [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) или **Shelly** —
    например, [Nous A1T](https://nous.technology/product/a1t.html) или
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Бесплатное [приложение Spot Price Plugs](https://github.com/derrij/SpotPricePlugs/releases/latest)

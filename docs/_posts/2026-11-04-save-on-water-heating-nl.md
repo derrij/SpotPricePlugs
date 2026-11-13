@@ -38,7 +38,7 @@ de prijzen van de volgende dag.
 
 ## Wat je nodig hebt
 
-1. Een stekker met [Tasmota](https://tasmota.github.io/docs/)- of **Shelly**-firmware —
+1. Een stekker met [Tasmota](https://tasmota.github.io/docs/)-, [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App)- of **Shelly**-firmware —
    bijvoorbeeld [Nous A1T](https://nous.technology/product/a1t.html) of
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. De gratis [Spot Price Plugs-app](https://github.com/derrij/SpotPricePlugs/releases/latest)

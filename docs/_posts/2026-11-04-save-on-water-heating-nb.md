@@ -31,13 +31,13 @@ realistisk i Baltikum og Finland.
 
 ## Hvorfor kontakten og ikke bare appen
 
-Trikset er at timeplanen skrives **direkte til kontakten** (både Tasmota og Shelly lagrer
+Trikset er at timeplanen skrives **direkte til kontakten** (både Tasmota, OpenBeken og Shelly lagrer
 timere i enheten). Telefonen kan være av, internett kan falle bort — vannvarmeren varmer
 likevel i de billige timene. Hver dag skriver appen om timerne med neste dags priser.
 
 ## Hva du trenger
 
-1. En kontakt med [Tasmota](https://tasmota.github.io/docs/)- eller **Shelly**-fastvare —
+1. En kontakt med [Tasmota](https://tasmota.github.io/docs/)-, [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App)- eller **Shelly**-fastvare —
    for eksempel [Nous A1T](https://nous.technology/product/a1t.html) eller
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Den gratis [Spot Price Plugs-appen](https://github.com/derrij/SpotPricePlugs/releases/latest)

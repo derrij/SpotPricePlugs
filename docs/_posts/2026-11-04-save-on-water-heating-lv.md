@@ -37,7 +37,7 @@ silda lētākajās stundās. Katru dienu lietotne pārraksta taimerus nākamās 
 
 ## Ko jums vajag
 
-1. Rozete ar [Tasmota](https://tasmota.github.io/docs/) vai **Shelly** programmaparatūru —
+1. Rozete ar [Tasmota](https://tasmota.github.io/docs/), [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) vai **Shelly** programmaparatūru —
    piemēram, [Nous A1T](https://nous.technology/product/a1t.html) vai
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Bezmaksas [Spot Price Plugs lietotne](https://github.com/derrij/SpotPricePlugs/releases/latest)

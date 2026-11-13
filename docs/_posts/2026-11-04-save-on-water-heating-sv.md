@@ -31,13 +31,13 @@ beråd är realistisk i Baltikum och Finland.
 
 ## Varför kontakten, inte bara appen
 
-Tricket är att schemat skrivs **in i kontakten själva** (både Tasmota och Shelly lagrar
+Tricket är att schemat skrivs **in i kontakten själva** (både Tasmota, OpenBeken och Shelly lagrar
 timers i enheten). Telefonen kan vara avstängd, internetet kan försvinna — beråden värmer
 ändå under de billiga timmarna. Varje dag skriver appen om timersna med nästa dags priser.
 
 ## Vad du behöver
 
-1. En kontakt med [Tasmota](https://tasmota.github.io/docs/)- eller **Shelly**-firmware —
+1. En kontakt med [Tasmota](https://tasmota.github.io/docs/)-, [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App)- eller **Shelly**-firmware —
    till exempel [Nous A1T](https://nous.technology/product/a1t.html) eller
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Den gratis [Spot Price Plugs-appen](https://github.com/derrij/SpotPricePlugs/releases/latest)

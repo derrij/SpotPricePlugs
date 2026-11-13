@@ -38,7 +38,7 @@ den Preisen des nächsten Tages neu.
 
 ## Was Sie brauchen
 
-1. Eine Steckdose mit [Tasmota](https://tasmota.github.io/docs/)- oder **Shelly**-Firmware —
+1. Eine Steckdose mit [Tasmota](https://tasmota.github.io/docs/)-, [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App)- oder **Shelly**-Firmware —
    zum Beispiel [Nous A1T](https://nous.technology/product/a1t.html) oder
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Die kostenlose [Spot Price Plugs-App](https://github.com/derrij/SpotPricePlugs/releases/latest)

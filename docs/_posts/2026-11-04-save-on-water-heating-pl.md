@@ -38,7 +38,7 @@ zgodnie z cenami na kolejny dzień.
 
 ## Co jest potrzebne
 
-1. Gniazdko z oprogramowaniem [Tasmota](https://tasmota.github.io/docs/) lub **Shelly** —
+1. Gniazdko z oprogramowaniem [Tasmota](https://tasmota.github.io/docs/), [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) lub **Shelly** —
    na przykład [Nous A1T](https://nous.technology/product/a1t.html) albo
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Darmowa [aplikacja Spot Price Plugs](https://github.com/derrij/SpotPricePlugs/releases/latest)

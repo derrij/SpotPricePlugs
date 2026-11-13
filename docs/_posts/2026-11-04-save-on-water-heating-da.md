@@ -31,13 +31,13 @@ realistisk i Baltikum og Finland.
 
 ## Hvorfor stikket og ikke bare appen
 
-Tricket er, at skemaet skrives **direkte i stikket** (både Tasmota og Shelly gemmer timere
+Tricket er, at skemaet skrives **direkte i stikket** (både Tasmota, OpenBeken og Shelly gemmer timere
 i enheden). Telefonen kan være slukket, internettet kan gå væk — vandvarmeren varmer stadig
 i de billige timer. Hver dag skriver appen timerne om med næste dags priser.
 
 ## Hvad du skal bruge
 
-1. Et stik med [Tasmota](https://tasmota.github.io/docs/)- eller **Shelly**-firmware —
+1. Et stik med [Tasmota](https://tasmota.github.io/docs/)-, [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App)- eller **Shelly**-firmware —
    for eksempel [Nous A1T](https://nous.technology/product/a1t.html) eller
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Den gratis [Spot Price Plugs-app](https://github.com/derrij/SpotPricePlugs/releases/latest)

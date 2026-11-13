@@ -31,14 +31,14 @@ average and the cheapest hours is much wider than in this example — savings of
 
 ## Why the plug, not the app alone
 
-The trick is that the schedule is written **into the plug itself** (Tasmota and Shelly
+The trick is that the schedule is written **into the plug itself** (Tasmota, OpenBeken and Shelly
 both store timers on the device). The phone can be off, the internet can drop — the
 boiler still heats during the cheap hours. Every day the app rewrites the timers for
 the next day's prices.
 
 ## What you need
 
-1. A plug running [Tasmota](https://tasmota.github.io/docs/) or **Shelly** firmware —
+1. A plug running [Tasmota](https://tasmota.github.io/docs/), [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) or **Shelly** firmware —
    for example [Nous A1T](https://nous.technology/product/a1t.html) or
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. The free [Spot Price Plugs app](https://github.com/derrij/SpotPricePlugs/releases/latest)

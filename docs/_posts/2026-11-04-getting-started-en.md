@@ -20,12 +20,14 @@ and works entirely on your local network.
 - **Shelly**: factory firmware works out of the box. Make sure the web UI has **no password**.
 - **Tasmota**: flash the plug if it is not flashed yet and make sure it gets the **time
   via NTP** (internet access). The app adapts timers to the plug's time zone itself.
+- **OpenBeken**: found the same way as Tasmota. The schedule is stored on the plug as clock
+  events and kept in its `autoexec.bat`, so it survives a reboot.
 
 Connect the plug to the same Wi-Fi network as your phone.
 
 ## 3. Find plugs
 
-Open the app and tap **Find plugs**. It scans your subnet and lists every Tasmota and
+Open the app and tap **Find plugs**. It scans your subnet and lists every Tasmota, OpenBeken and
 Shelly (Gen1, Gen2/3) device it finds.
 
 ## 4. Set your region and hours

@@ -38,7 +38,7 @@ Gudrybė ta, kad grafikas įrašomas **į pačią rozetę** (tiek Tasmota, tiek 
 
 ## Ko jums reikia
 
-1. Rozetė su [Tasmota](https://tasmota.github.io/docs/) arba **Shelly** programine įranga —
+1. Rozetė su [Tasmota](https://tasmota.github.io/docs/), [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) arba **Shelly** programine įranga —
    pavyzdžiui, [Nous A1T](https://nous.technology/product/a1t.html) arba
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Nemokama [Spot Price Plugs programėlė](https://github.com/derrij/SpotPricePlugs/releases/latest)

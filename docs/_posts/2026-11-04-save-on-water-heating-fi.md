@@ -38,7 +38,7 @@ ajastimet uudelleen seuraavan päivän hintojen mukaan.
 
 ## Mitä tarvitset
 
-1. Pistorasia [Tasmota](https://tasmota.github.io/docs/)- tai **Shelly**-ohjelmistolla —
+1. Pistorasia [Tasmota](https://tasmota.github.io/docs/)-, [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App)- tai **Shelly**-ohjelmistolla —
    esimerkiksi [Nous A1T](https://nous.technology/product/a1t.html) tai
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Ilmainen [Spot Price Plugs -sovellus](https://github.com/derrij/SpotPricePlugs/releases/latest)

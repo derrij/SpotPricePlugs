@@ -37,7 +37,7 @@ siiski odavatel tundidel. Iga päev kirjutab rakendus taimerid üle järgmise p�
 
 ## Mida vajate
 
-1. Pistik [Tasmota](https://tasmota.github.io/docs/) või **Shelly** tarkvaraga —
+1. Pistik [Tasmota](https://tasmota.github.io/docs/), [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) või **Shelly** tarkvaraga —
    näiteks [Nous A1T](https://nous.technology/product/a1t.html) või
    [Shelly Plug M Gen3](https://www.shelly.com/products/shelly-plug-m-gen3-white)
 2. Tasuta [Spot Price Plugs rakendus](https://github.com/derrij/SpotPricePlugs/releases/latest)
