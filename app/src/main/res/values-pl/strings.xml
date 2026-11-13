@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <string name="msg_error">Błąd: %1$s</string>
+    <string name="msg_failed">Niepowodzenie: %1$s</string>
+
+    <!-- Header -->
+    <string name="tagline">Gniazdka włączają się, gdy prąd jest najtańszy</string>
+    <string name="last_run">Ostatnie uruchomienie: %1$s</string>
+    <string name="last_run_info">Ostatnie uruchomienie: %1$s · %2$s</string>
+    <string name="never_run">jeszcze nie uruchomiono</string>
+    <string name="next_run">Następna aktualizacja: %1$s</string>
+    <string name="saved_30_days">Zaoszczędzono w ostatnich 30 dniach: %1$s</string>
+
+    <!-- Update -->
+    <string name="update_title">Dostępna aktualizacja</string>
+    <string name="update_text">Wyszła wersja %1$s. Instaluje się na istniejącej; gniazdka i ustawienia zostają.</string>
+    <string name="update_download">Pobierz</string>
+    <string name="update_later">Później</string>
+    <string name="update_checking">Sprawdzanie…</string>
+    <string name="update_available">Dostępna wersja %1$s</string>
+    <string name="update_latest">Masz najnowszą wersję</string>
+    <string name="update_failed">Nie udało się sprawdzić: %1$s</string>
+    <string name="update_channel">Aktualizacje aplikacji</string>
+    <string name="update_notification">Dostępna nowa wersja — dotknij, aby pobrać</string>
+
+    <!-- Support -->
+    <string name="support_title">Wesprzyj projekt</string>
+    <string name="support_saved">W tym miesiącu aplikacja zaoszczędziła dla Ciebie %1$s.</string>
+    <string name="support_text">Spot Price Plugs jest darmowa, bez reklam i otwartoźródłowa. Jeśli jest Ci przydatna, postaw autorowi kawę — to pomaga dodawać nowe urządzenia i regiony.</string>
+    <string name="support_bug">Zgłoś błąd</string>
+
+    <!-- About -->
+    <string name="about_title">O aplikacji</string>
+    <string name="about_version">Wersja %1$s</string>
+    <string name="about_check">Sprawdź</string>
+    <string name="about_language">Język</string>
+    <string name="about_note">Cena = cena giełdowa Nord Pool + VAT. Plan używa tylko przyszłych interwałów 15-minutowych; jutro dodawane jest, gdy giełda je opublikuje (około 13:00 CET). Licencja: GNU GPL v3.</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Uprawnienia</string>
+    <string name="perm_exact">Dokładne alarmy</string>
+    <string name="perm_background">Praca w tle</string>
+    <string name="perm_notifications">Powiadomienia</string>
+    <string name="perm_allowed">dozwolone</string>
+    <string name="perm_denied">zabronione</string>
+    <string name="perm_unrestricted">bez ograniczeń</string>
+    <string name="perm_restricted">ograniczone</string>
+    <string name="perm_btn_alarms">Alarmy</string>
+    <string name="perm_btn_battery">Bateria</string>
+    <string name="perm_btn_notifications">Zezwól na powiadomienia</string>
+    <string name="perm_hint">Bez tych uprawnień Android może opóźniać aktualizacje o godziny.</string>
+
+    <!-- Network -->
+    <string name="net_title">Sieć</string>
+    <string name="net_subnet">Podsieć</string>
+    <string name="net_auto">Auto</string>
+    <string name="net_scan">Znajdź gniazdka</string>
+    <string name="net_hint">Telefon musi być w tej samej sieci Wi-Fi co gniazdka. Już znalezione gniazdka zostają.</string>
+    <string name="msg_subnet_invalid">Podsieć musi wyglądać jak 192.168.1</string>
+    <string name="msg_wifi_unknown">Nie udało się wykryć sieci Wi-Fi</string>
+    <string name="msg_network">Sieć: %1$s.0/24</string>
+    <string name="msg_none_found">Nie znaleziono gniazdek. Upewnij się, że telefon jest w tej samej sieci Wi-Fi.</string>
+    <string name="msg_found">Znaleziono urządzeń: %1$d</string>
+    <string name="msg_scan_error">Skanowanie nie powiodło się: %1$s</string>
+
+    <!-- Plugs -->
+    <string name="plugs_title">Gniazdka</string>
+    <string name="plugs_title_count">Gniazdka (%1$d)</string>
+    <string name="plugs_empty">Tu jeszcze nic nie ma. Włącz gniazdko Tasmota lub Shelly, połącz telefon z tą samą siecią Wi-Fi i dotknij „Znajdź gniazdka”.</string>
+    <string name="refresh_all">Zaktualizuj wszystkie</string>
+    <string name="refresh_sending">Wysyłanie…</string>
+    <string name="msg_scan_first">Najpierw przeskanuj sieć</string>
+    <string name="msg_saved_plug">Zapisano: %1$s</string>
+    <string name="msg_deleted_plug">Usunięto: %1$s</string>
+    <string name="msg_power_on">Gniazdko włączone</string>
+    <string name="msg_power_off">Gniazdko wyłączone</string>
+    <string name="msg_plan_on">Harmonogram wznowiony</string>
+    <string name="msg_plan_off">Harmonogram wstrzymany</string>
+
+    <!-- Plug card -->
+    <string name="plug_region_from_settings">region z ustawień</string>
+    <string name="plug_on">WŁ.</string>
+    <string name="plug_off">WYŁ.</string>
+    <string name="plug_paused">Harmonogram wstrzymany — timery wyłączone, planer nie steruje przekaźnikiem</string>
+    <string name="plug_now_price">Teraz: %1$s €/kWh</string>
+    <string name="plug_saved">Oszczędzono: dziś %1$s · 7 dni %2$s</string>
+    <string name="plug_updated">Zaktualizowano %1$s · następna %2$s</string>
+    <string name="plug_turn_on">Włącz</string>
+    <string name="plug_turn_off">Wyłącz</string>
+    <string name="plug_pause">Wstrzymaj plan</string>
+    <string name="plug_resume">Wznów</string>
+    <string name="plug_params">%1$s h/dzień · maks %2$s €</string>
+    <string name="plug_watts">%1$s W</string>
+    <string name="plug_edit">Edytuj</string>
+    <string name="plug_recalc">Przelicz</string>
+    <string name="plug_delete">Usuń gniazdko</string>
+    <string name="plug_delete_title">Usunąć gniazdko?</string>
+    <string name="plug_delete_text">„%1$s” zostanie usunięte z listy. Timery już zapisane w gniazdku działają dalej, dopóki ich nie zmienisz.</string>
+    <string name="plug_delete_confirm">Usuń</string>
+    <string name="plug_region_error">Region: LV, EE, LT, FI, SE3, NO1 …</string>
+    <string name="edit_hours">Godziny/dzień</string>
+    <string name="edit_limit">Maks €/kWh</string>
+    <string name="edit_unknown">nieznane</string>
+    <string name="legend_cheap">tanie</string>
+    <string name="legend_expensive">drogie</string>
+    <string name="legend_on">wł.</string>
+    <string name="plan_covered">Plan: %1$s, zostało %2$s</string>
+    <string name="plan_today">dziś</string>
+    <string name="plan_today_tomorrow">dziś i jutro</string>
+    <string name="plan_one_day">1 dzień</string>
+    <plurals name="plan_days">
+        <item quantity="one">%1$d dzień</item>
+        <item quantity="few">%1$d dni</item>
+        <item quantity="many">%1$d dni</item>
+        <item quantity="other">%1$d dnia</item>
+    </plurals>
+    <string name="sum_on">wł.: %1$s</string>
+    <string name="day_today">dziś %1$s</string>
+    <string name="day_tomorrow">jutro %1$s</string>
+    <string name="name_preview">Nazwa dla gniazdka</string>
+    <string name="name_copy">Kopiuj nazwę</string>
+    <string name="plug_open_page">Otwórz stronę WWW gniazdka</string>
+    <string name="name_copied">Nazwa skopiowana. Wklej ją jako Device Name w interfejsie WWW gniazdka, a następnie dotknij Znajdź gniazdka.</string>
+    <string name="sum_avg">śr. %1$s €/kWh</string>
+    <string name="sum_cheaper">%1$s%% taniej</string>
+    <string name="sum_saves">oszczędza ≈ %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ustawienia</string>
+    <string name="set_vat" formatted="false">VAT, %</string>
+    <string name="set_vat_auto">auto</string>
+    <string name="set_refresh">Codzienna aktualizacja</string>
+    <string name="set_hours">Godziny/dzień</string>
+    <string name="set_limit">Maks. cena, €</string>
+    <string name="set_region">Region</string>
+    <string name="set_watts">Moc, W</string>
+    <string name="set_watts_none">nie ustawiono</string>
+    <string name="set_save">Zapisz ustawienia</string>
+    <string name="set_hint">Wartości domyślne dla gniazdek, których nazwa ich nie określa. Przykład nazwy: %1$s</string>
+    <string name="msg_time_invalid">Czas aktualizacji musi wyglądać jak 14:05</string>
+    <string name="msg_region_unknown">Nieznany region: %1$s</string>
+    <string name="msg_settings_saved">Ustawienia zapisane</string>
+
+    <!-- Durations and switching -->
+    <string name="dur_hm">%1$d godz. %2$d min</string>
+    <string name="dur_h">%1$d godz.</string>
+    <string name="dur_m">%1$d min</string>
+    <string name="sw_on_left">WŁ. jeszcze %1$s</string>
+    <string name="sw_on_in">WŁ. za %1$s</string>
+    <string name="sw_on_today">WŁ. dziś o %1$s</string>
+    <string name="sw_on_tomorrow">WŁ. jutro o %1$s</string>
+
+    <!-- Background refresh -->
+    <string name="refresh_channel">Aktualizacje harmonogramów</string>
+    <string name="refresh_running">Aktualizowanie harmonogramów gniazdek…</string>
+    <string name="r_no_plugs">Brak zapisanych gniazdek</string>
+    <string name="r_no_region">Ustaw region w aplikacji lub w nazwie urządzenia</string>
+    <string name="r_no_prices">Nie otrzymano dzisiejszych cen</string>
+    <string name="r_ok">Zaktualizowane gniazdka: %1$d</string>
+    <string name="r_fail">Niepowodzenia: %1$d</string>
+    <string name="r_mixed">Zaktualizowano: %1$d, błędy: %2$d</string>
+
+    <!-- Device errors -->
+    <string name="e_incomplete">Dane dla %1$s są niepełne: brakuje %2$d interwałów. Ceny jeszcze nieopublikowane?</string>
+    <string name="e_http">%1$s zwróciło HTTP %2$d</string>
+    <string name="e_no_reply">%1$s nie odpowiada: %2$s</string>
+    <string name="e_rejected">%1$s odrzuciło polecenie: %2$s</string>
+    <string name="e_schedule_rejected">%1$s odrzuciło harmonogram</string>
+    <string name="e_too_many_blocks">Ponad %1$d bloków wł./wył. — nie mieszczą się w harmonogramie urządzenia</string>
+
+    <!-- Network errors, accessibility -->
+    <string name="e_net_timeout">przekroczono czas połączenia</string>
+    <string name="e_net_refused">połączenie odrzucone</string>
+    <string name="e_net_unreachable">adres nieosiągalny — sprawdź połączenie Wi-Fi</string>
+    <string name="e_net_dns">nie znaleziono serwera — sprawdź połączenie z internetem</string>
+    <string name="e_net_io">błąd sieci</string>
+    <string name="e_unknown">nieoczekiwany błąd</string>
+    <string name="plug_kind_unknown">nieznany typ</string>
+    <string name="plug_region_missing">Region nieustawiony</string>
+    <string name="plan_chart_desc">Wykres cen: od %1$s do %2$s €/kWh, włączone przez %3$s</string>
+    <string name="e_no_time">%1$s: zegar gniazdka nie jest ustawiony. Połącz je z internetem (NTP) i spróbuj ponownie.</string>
+    <string name="plug_unmanaged">Niesterowane — aplikacja nie rusza tego urządzenia.</string>
+    <string name="plug_manage">Steruj tym gniazdkiem</string>
+    <string name="plug_unmanage">Przestań sterować</string>
+    <string name="e_wrong_device">%1$s: pod tym adresem odpowiada inne urządzenie. Wyszukaj gniazdka ponownie.</string>
+</resources>

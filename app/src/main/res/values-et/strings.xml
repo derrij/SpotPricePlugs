@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="cancel">Tühista</string>
+    <string name="save">Salvesta</string>
+    <string name="msg_error">Viga: %1$s</string>
+    <string name="msg_failed">Ebaõnnestus: %1$s</string>
+
+    <!-- Header -->
+    <string name="tagline">Pistikud lülituvad sisse, kui elekter on kõige odavam</string>
+    <string name="last_run">Viimane käivitus: %1$s</string>
+    <string name="last_run_info">Viimane käivitus: %1$s · %2$s</string>
+    <string name="never_run">veel pole käivitatud</string>
+    <string name="next_run">Järgmine uuendus: %1$s</string>
+    <string name="saved_30_days">Säästetud viimase 30 päeva jooksul: %1$s</string>
+
+    <!-- Update -->
+    <string name="update_title">Uuendus on saadaval</string>
+    <string name="update_text">Versioon %1$s on väljas. See paigaldatakse olemasolevale peale; pistikud ja seaded jäävad alles.</string>
+    <string name="update_download">Laadi alla</string>
+    <string name="update_later">Hiljem</string>
+    <string name="update_checking">Kontrollin…</string>
+    <string name="update_available">Versioon %1$s on saadaval</string>
+    <string name="update_latest">Sul on uusim versioon</string>
+    <string name="update_failed">Ei saanud kontrollida: %1$s</string>
+    <string name="update_channel">Rakenduse uuendused</string>
+    <string name="update_notification">Uus versioon on saadaval — puuduta allalaadimiseks</string>
+
+    <!-- Support -->
+    <string name="support_title">Toeta projekti</string>
+    <string name="support_saved">Rakendus säästis sellel kuul sinu heaks %1$s.</string>
+    <string name="support_text">Spot Price Plugs on tasuta, reklaamivaba ja avatud lähtekoodiga. Kui see on sulle kasulik, kutsu autorile kohvi — see aitab lisada uusi seadmeid ja piirkondi.</string>
+    <string name="support_bug">Teata veast</string>
+
+    <!-- About -->
+    <string name="about_title">Teave</string>
+    <string name="about_version">Versioon %1$s</string>
+    <string name="about_check">Kontrolli</string>
+    <string name="about_language">Keel</string>
+    <string name="about_note">Hind = Nord Pool börsihind + käibemaks. Kava kasutab ainult tulevasi 15-minutilisi intervalle; homme lisatakse niipea, kui börs selle avaldab (umbes kell 13:00 CET). Litsents: GNU GPL v3.</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Õigused</string>
+    <string name="perm_exact">Täpsed alarmid</string>
+    <string name="perm_background">Töö taustal</string>
+    <string name="perm_notifications">Märguanded</string>
+    <string name="perm_allowed">lubatud</string>
+    <string name="perm_denied">keelatud</string>
+    <string name="perm_unrestricted">piiramata</string>
+    <string name="perm_restricted">piiratud</string>
+    <string name="perm_btn_alarms">Alarmid</string>
+    <string name="perm_btn_battery">Aku</string>
+    <string name="perm_btn_notifications">Luba märguanded</string>
+    <string name="perm_hint">Nende õigusteta võib Android uuendusi tundidega edasi lükata.</string>
+
+    <!-- Network -->
+    <string name="net_title">Võrk</string>
+    <string name="net_subnet">Alavõrk</string>
+    <string name="net_auto">Automaatne</string>
+    <string name="net_scan">Leia pistikud</string>
+    <string name="net_hint">Telefon peab olema samas Wi-Fi võrgus kui pistikud. Juba leitud pistikud jäävad alles.</string>
+    <string name="msg_subnet_invalid">Alavõrk peab nägema välja nagu 192.168.1</string>
+    <string name="msg_wifi_unknown">Ei saanud tuvastada Wi-Fi võrku</string>
+    <string name="msg_network">Võrk: %1$s.0/24</string>
+    <string name="msg_none_found">Pistikuid ei leitud. Veendu, et telefon on samas Wi-Fi võrgus.</string>
+    <string name="msg_found">Leitud seadmeid: %1$d</string>
+    <string name="msg_scan_error">Skannimine ebaõnnestus: %1$s</string>
+
+    <!-- Plugs -->
+    <string name="plugs_title">Pistikud</string>
+    <string name="plugs_title_count">Pistikud (%1$d)</string>
+    <string name="plugs_empty">Siin pole veel midagi. Lülita sisse Tasmota või Shelly pistik, ühenda telefon samasse Wi-Fi võrku ja puuduta “Leia pistikud”.</string>
+    <string name="refresh_all">Uuenda kõiki</string>
+    <string name="refresh_sending">Saadan…</string>
+    <string name="msg_scan_first">Skanni esiteks võrk</string>
+    <string name="msg_saved_plug">Salvestatud: %1$s</string>
+    <string name="msg_deleted_plug">Eemaldatud: %1$s</string>
+    <string name="msg_power_on">Pistik lülitati sisse</string>
+    <string name="msg_power_off">Pistik lülitati välja</string>
+    <string name="msg_plan_on">Kava jätkati</string>
+    <string name="msg_plan_off">Kava peatati</string>
+
+    <!-- Plug card -->
+    <string name="plug_region_from_settings">piirkond seadetest</string>
+    <string name="plug_on">SEES</string>
+    <string name="plug_off">VÄLJAS</string>
+    <string name="plug_paused">Kava peatatud — taimerid on väljas, planeerija ei juhi releet</string>
+    <string name="plug_now_price">Praegu: %1$s €/kWh</string>
+    <string name="plug_saved">Säästetud: täna %1$s · 7 päeva %2$s</string>
+    <string name="plug_updated">Uuendatud %1$s · järgmine %2$s</string>
+    <string name="plug_turn_on">Lülita sisse</string>
+    <string name="plug_turn_off">Lülita välja</string>
+    <string name="plug_pause">Peata kava</string>
+    <string name="plug_resume">Jätka</string>
+    <string name="plug_params">%1$s h/päevas · max %2$s €</string>
+    <string name="plug_watts">%1$s W</string>
+    <string name="plug_edit">Muuda</string>
+    <string name="plug_recalc">Arvuta uuesti</string>
+    <string name="plug_delete">Eemalda pistik</string>
+    <string name="plug_delete_title">Eemaldada pistik?</string>
+    <string name="plug_delete_text">“%1$s” eemaldatakse loendist. Pistikusse juba kirjutatud taimerid töötavad edasi, kuni sa neid muudad.</string>
+    <string name="plug_delete_confirm">Eemalda</string>
+    <string name="plug_region_error">Piirkond: LV, EE, LT, FI, SE3, NO1 …</string>
+    <string name="edit_hours">Tunde/päevas</string>
+    <string name="edit_limit">Max €/kWh</string>
+    <string name="edit_unknown">teadmata</string>
+    <string name="legend_cheap">odav</string>
+    <string name="legend_expensive">kallis</string>
+    <string name="legend_on">sees</string>
+    <string name="plan_covered">Kava: %1$s, jäänud %2$s</string>
+    <string name="plan_today">täna</string>
+    <string name="plan_today_tomorrow">täna ja homme</string>
+    <string name="plan_one_day">1 päev</string>
+    <plurals name="plan_days">
+        <item quantity="one">%1$d päev</item>
+        <item quantity="other">%1$d päeva</item>
+    </plurals>
+    <string name="sum_on">sees: %1$s</string>
+    <string name="day_today">täna %1$s</string>
+    <string name="day_tomorrow">homme %1$s</string>
+    <string name="name_preview">Pistiku nimi</string>
+    <string name="name_copy">Kopeeri nimi</string>
+    <string name="plug_open_page">Ava pistiku veebileht</string>
+    <string name="name_copied">Nimi kopeeritud. Kleebi see pistiku veebiliidesesse väljale Device Name ja puuduta siis “Leia pistikud”.</string>
+    <string name="sum_avg">keskm. %1$s €/kWh</string>
+    <string name="sum_cheaper">%1$s%% odavam</string>
+    <string name="sum_saves">säästab ≈ %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Seaded</string>
+    <string name="set_vat" formatted="false">Käibemaks, %</string>
+    <string name="set_vat_auto">auto</string>
+    <string name="set_refresh">Igapäevane uuendus</string>
+    <string name="set_hours">Tunde/päevas</string>
+    <string name="set_limit">Max hind, €</string>
+    <string name="set_region">Piirkond</string>
+    <string name="set_watts">Võimsus, W</string>
+    <string name="set_watts_none">määramata</string>
+    <string name="set_save">Salvesta seaded</string>
+    <string name="set_hint">Vaikeseaded pistikutele, mille nimi neid ei määra. Nime näide: %1$s</string>
+    <string name="msg_time_invalid">Uuenduse aeg peab nägema välja nagu 14:05</string>
+    <string name="msg_region_unknown">Tundmatu piirkond: %1$s</string>
+    <string name="msg_settings_saved">Seaded salvestatud</string>
+
+    <!-- Durations and switching -->
+    <string name="dur_hm">%1$d h %2$d min</string>
+    <string name="dur_h">%1$d h</string>
+    <string name="dur_m">%1$d min</string>
+    <string name="sw_on_left">SEES veel %1$s</string>
+    <string name="sw_on_in">SEES pärast %1$s</string>
+    <string name="sw_on_today">SEES täna kell %1$s</string>
+    <string name="sw_on_tomorrow">SEES homme kell %1$s</string>
+
+    <!-- Background refresh -->
+    <string name="refresh_channel">Ajakava uuendused</string>
+    <string name="refresh_running">Uuendan pistikute ajakavasid…</string>
+    <string name="r_no_plugs">Salvestatud pistikuid pole</string>
+    <string name="r_no_region">Määra piirkond rakenduses või seadme nimes</string>
+    <string name="r_no_prices">Tänaseid hindu ei saadud</string>
+    <string name="r_ok">Uuendatud pistikuid: %1$d</string>
+    <string name="r_fail">Ebaõnnestus: %1$d</string>
+    <string name="r_mixed">Uuendatud: %1$d, vigu: %2$d</string>
+
+    <!-- Device errors -->
+    <string name="e_incomplete">Andmed %1$s kohta on puudulikud: puudub %2$d intervalli. Hindasid pole veel avaldatud?</string>
+    <string name="e_http">%1$s tagastas HTTP %2$d</string>
+    <string name="e_no_reply">%1$s ei vastanud: %2$s</string>
+    <string name="e_rejected">%1$s lükkas käsu tagasi: %2$s</string>
+    <string name="e_schedule_rejected">%1$s lükkas ajakava tagasi</string>
+    <string name="e_too_many_blocks">Rohkem kui %1$d sisse-/väljalülitamise plokki — need ei mahu seadme ajakavasse</string>
+
+    <!-- Network errors, accessibility -->
+    <string name="e_net_timeout">ühendus aegus</string>
+    <string name="e_net_refused">ühendusest keelduti</string>
+    <string name="e_net_unreachable">aadress pole kättesaadav — kontrolli Wi-Fi ühendust</string>
+    <string name="e_net_dns">serverit ei leitud — kontrolli internetiühendust</string>
+    <string name="e_net_io">võrguviga</string>
+    <string name="e_unknown">ootamatu viga</string>
+    <string name="plug_kind_unknown">tundmatu tüüp</string>
+    <string name="plug_region_missing">Piirkond määramata</string>
+    <string name="plan_chart_desc">Hinnagraafik: %1$s kuni %2$s €/kWh, sees %3$s</string>
+    <string name="e_no_time">%1$s: pistiku kell pole seadistatud. Ühenda see internetiga (NTP) ja proovi uuesti.</string>
+    <string name="plug_unmanaged">Ei juhita — rakendus seda seadet ei puutu.</string>
+    <string name="plug_manage">Juhi seda pistikut</string>
+    <string name="plug_unmanage">Lõpeta juhtimine</string>
+    <string name="e_wrong_device">%1$s: sellel aadressil vastab teine seade. Käivitage pistikute otsing uuesti.</string>
+</resources>

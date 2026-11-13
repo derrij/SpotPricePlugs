@@ -1,0 +1,27 @@
+# Gradle / Android Studio
+.gradle/
+.kotlin/
+.idea/
+build/
+app/build/
+local.properties
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.bat
+!gradlew.bat
+
+# Build outputs and signing
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties
+
+# Jekyll local build output
+docs/_site/
+
+# License secrets: never commit
+license_keys/
+*.pem

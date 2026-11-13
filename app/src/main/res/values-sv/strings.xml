@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="cancel">Avbryt</string>
+    <string name="save">Spara</string>
+    <string name="msg_error">Fel: %1$s</string>
+    <string name="msg_failed">Misslyckades: %1$s</string>
+
+    <!-- Header -->
+    <string name="tagline">Kontakter slås på när elen är billigast</string>
+    <string name="last_run">Senaste körning: %1$s</string>
+    <string name="last_run_info">Senaste körning: %1$s · %2$s</string>
+    <string name="never_run">har inte körts än</string>
+    <string name="next_run">Nästa uppdatering: %1$s</string>
+    <string name="saved_30_days">Sparat de senaste 30 dagarna: %1$s</string>
+
+    <!-- Update -->
+    <string name="update_title">Uppdatering tillgänglig</string>
+    <string name="update_text">Version %1$s är ute. Den installeras över den nuvarande; kontakter och inställningar behålls.</string>
+    <string name="update_download">Ladda ner</string>
+    <string name="update_later">Senare</string>
+    <string name="update_checking">Kontrollerar…</string>
+    <string name="update_available">Version %1$s är tillgänglig</string>
+    <string name="update_latest">Du har den senaste versionen</string>
+    <string name="update_failed">Kunde inte kontrollera: %1$s</string>
+    <string name="update_channel">Appuppdateringar</string>
+    <string name="update_notification">En ny version är tillgänglig — tryck för att ladda ner</string>
+
+    <!-- Support -->
+    <string name="support_title">Stöd projektet</string>
+    <string name="support_saved">Appen sparade %1$s åt dig denna månad.</string>
+    <string name="support_text">Spot Price Plugs är gratis, reklamfri och öppen källkod. Om den är användbar för dig, bjud skaparen på en kaffe — det hjälper till att lägga till nya enheter och regioner.</string>
+    <string name="support_bug">Rapportera ett fel</string>
+
+    <!-- About -->
+    <string name="about_title">Om</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_check">Kontrollera</string>
+    <string name="about_language">Språk</string>
+    <string name="about_note">Pris = Nord Pool-spotpris + moms. Planen använder bara framtida 15-minutersintervall; imorgon läggs till så snart börsen publicerar det (runt 13:00 CET). Licens: GNU GPL v3.</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Behörigheter</string>
+    <string name="perm_exact">Exakta alarm</string>
+    <string name="perm_background">Bakgrundsarbete</string>
+    <string name="perm_notifications">Notiser</string>
+    <string name="perm_allowed">tillåtet</string>
+    <string name="perm_denied">nekat</string>
+    <string name="perm_unrestricted">obegränsad</string>
+    <string name="perm_restricted">begränsad</string>
+    <string name="perm_btn_alarms">Alarm</string>
+    <string name="perm_btn_battery">Batteri</string>
+    <string name="perm_btn_notifications">Tillåt notiser</string>
+    <string name="perm_hint">Utan dessa behörigheter kan Android fördröja uppdateringar i timmar.</string>
+
+    <!-- Network -->
+    <string name="net_title">Nätverk</string>
+    <string name="net_subnet">Delnät</string>
+    <string name="net_auto">Auto</string>
+    <string name="net_scan">Hitta kontakter</string>
+    <string name="net_hint">Telefonen måste vara på samma Wi-Fi som kontakterna. Redan hittade kontakter behålls.</string>
+    <string name="msg_subnet_invalid">Delnätet måste se ut som 192.168.1</string>
+    <string name="msg_wifi_unknown">Kunde inte identifiera Wi-Fi-nätverket</string>
+    <string name="msg_network">Nätverk: %1$s.0/24</string>
+    <string name="msg_none_found">Inga kontakter hittades. Kontrollera att telefonen är på samma Wi-Fi.</string>
+    <string name="msg_found">Enheter hittade: %1$d</string>
+    <string name="msg_scan_error">Skanning misslyckades: %1$s</string>
+
+    <!-- Plugs -->
+    <string name="plugs_title">Kontakter</string>
+    <string name="plugs_title_count">Kontakter (%1$d)</string>
+    <string name="plugs_empty">Här finns inget ännu. Slå på en Tasmota- eller Shelly-kontakt, anslut telefonen till samma Wi-Fi och tryck “Hitta kontakter”.</string>
+    <string name="refresh_all">Uppdatera alla</string>
+    <string name="refresh_sending">Skickar…</string>
+    <string name="msg_scan_first">Skanna nätverket först</string>
+    <string name="msg_saved_plug">Sparad: %1$s</string>
+    <string name="msg_deleted_plug">Borttagen: %1$s</string>
+    <string name="msg_power_on">Kontakten slog på</string>
+    <string name="msg_power_off">Kontakten stängde av</string>
+    <string name="msg_plan_on">Schemat återupptogs</string>
+    <string name="msg_plan_off">Schemat pausades</string>
+
+    <!-- Plug card -->
+    <string name="plug_region_from_settings">region från inställningar</string>
+    <string name="plug_on">PÅ</string>
+    <string name="plug_off">AV</string>
+    <string name="plug_paused">Schema pausat — tidarna är av, planeraren styr inte relät</string>
+    <string name="plug_now_price">Nu: %1$s €/kWh</string>
+    <string name="plug_saved">Sparat: idag %1$s · 7 dagar %2$s</string>
+    <string name="plug_updated">Uppdaterad %1$s · nästa %2$s</string>
+    <string name="plug_turn_on">Slå på</string>
+    <string name="plug_turn_off">Stäng av</string>
+    <string name="plug_pause">Pausa schemat</string>
+    <string name="plug_resume">Återuppta</string>
+    <string name="plug_params">%1$s h/dygn · max %2$s €</string>
+    <string name="plug_watts">%1$s W</string>
+    <string name="plug_edit">Redigera</string>
+    <string name="plug_recalc">Räkna om</string>
+    <string name="plug_delete">Ta bort kontakt</string>
+    <string name="plug_delete_title">Ta bort kontakten?</string>
+    <string name="plug_delete_text">“%1$s” tas bort från listan. Timers som redan skrivits till kontakten fortsätter fungera tills du ändrar dem.</string>
+    <string name="plug_delete_confirm">Ta bort</string>
+    <string name="plug_region_error">Region: LV, EE, LT, FI, SE3, NO1 …</string>
+    <string name="edit_hours">Timmar/dygn</string>
+    <string name="edit_limit">Max €/kWh</string>
+    <string name="edit_unknown">okänd</string>
+    <string name="legend_cheap">billig</string>
+    <string name="legend_expensive">dyr</string>
+    <string name="legend_on">på</string>
+    <string name="plan_covered">Schema: %1$s, %2$s kvar</string>
+    <string name="plan_today">idag</string>
+    <string name="plan_today_tomorrow">idag och imorgon</string>
+    <string name="plan_one_day">1 dag</string>
+    <plurals name="plan_days">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+    <string name="sum_on">på: %1$s</string>
+    <string name="day_today">idag %1$s</string>
+    <string name="day_tomorrow">imorgon %1$s</string>
+    <string name="name_preview">Namn för kontakten</string>
+    <string name="name_copy">Kopiera namn</string>
+    <string name="plug_open_page">Öppna kontaktens webbsida</string>
+    <string name="name_copied">Namnet kopierat. Klistra in det som Device Name i kontaktens webbgränssnitt och tryck sedan Hitta kontakter.</string>
+    <string name="sum_avg">medel %1$s €/kWh</string>
+    <string name="sum_cheaper">%1$s%% billigare</string>
+    <string name="sum_saves">sparar ≈ %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Inställningar</string>
+    <string name="set_vat" formatted="false">Moms, %</string>
+    <string name="set_vat_auto">auto</string>
+    <string name="set_refresh">Daglig uppdatering</string>
+    <string name="set_hours">Timmar/dygn</string>
+    <string name="set_limit">Maxpris, €</string>
+    <string name="set_region">Region</string>
+    <string name="set_watts">Effekt, W</string>
+    <string name="set_watts_none">inte angivet</string>
+    <string name="set_save">Spara inställningar</string>
+    <string name="set_hint">Standardvärden för kontakter vars namn inte anger dem. Namnexempel: %1$s</string>
+    <string name="msg_time_invalid">Uppdateringstiden måste se ut som 14:05</string>
+    <string name="msg_region_unknown">Okänd region: %1$s</string>
+    <string name="msg_settings_saved">Inställningar sparade</string>
+
+    <!-- Durations and switching -->
+    <string name="dur_hm">%1$d h %2$d min</string>
+    <string name="dur_h">%1$d h</string>
+    <string name="dur_m">%1$d min</string>
+    <string name="sw_on_left">PÅ i %1$s till</string>
+    <string name="sw_on_in">PÅ om %1$s</string>
+    <string name="sw_on_today">PÅ idag kl %1$s</string>
+    <string name="sw_on_tomorrow">PÅ imorgon kl %1$s</string>
+
+    <!-- Background refresh -->
+    <string name="refresh_channel">Schemauptaderingar</string>
+    <string name="refresh_running">Uppdaterar kontaktscheman…</string>
+    <string name="r_no_plugs">Inga sparade kontakter</string>
+    <string name="r_no_region">Ställ in regionen i appen eller i enhetsnamnet</string>
+    <string name="r_no_prices">Dagens priser erhölls inte</string>
+    <string name="r_ok">Uppdaterade kontakter: %1$d</string>
+    <string name="r_fail">Misslyckades: %1$d</string>
+    <string name="r_mixed">Uppdaterade: %1$d, fel: %2$d</string>
+
+    <!-- Device errors -->
+    <string name="e_incomplete">Data för %1$s är ofullständig: %2$d intervall saknas. Priserna inte publicerade än?</string>
+    <string name="e_http">%1$s returnerade HTTP %2$d</string>
+    <string name="e_no_reply">%1$s svarade inte: %2$s</string>
+    <string name="e_rejected">%1$s avvisade kommandot: %2$s</string>
+    <string name="e_schedule_rejected">%1$s avvisade schemat</string>
+    <string name="e_too_many_blocks">Fler än %1$d på/av-block — de får inte plats i enhetens schema</string>
+
+    <!-- Network errors, accessibility -->
+    <string name="e_net_timeout">anslutningen tog för lång tid</string>
+    <string name="e_net_refused">anslutningen nekades</string>
+    <string name="e_net_unreachable">adressen går inte att nå — kontrollera Wi-Fi-anslutningen</string>
+    <string name="e_net_dns">servern hittades inte — kontrollera internetanslutningen</string>
+    <string name="e_net_io">nätverksfel</string>
+    <string name="e_unknown">oväntat fel</string>
+    <string name="plug_kind_unknown">okänd typ</string>
+    <string name="plug_region_missing">Region inte angiven</string>
+    <string name="plan_chart_desc">Prisdiagram: %1$s till %2$s €/kWh, på i %3$s</string>
+    <string name="e_no_time">%1$s: uttagets klocka är inte inställd. Anslut det till internet (NTP) och försök igen.</string>
+    <string name="plug_unmanaged">Styrs inte — appen rör inte den här enheten.</string>
+    <string name="plug_manage">Styr den här kontakten</string>
+    <string name="plug_unmanage">Sluta styra</string>
+    <string name="e_wrong_device">%1$s: en annan enhet svarar på den här adressen. Sök efter kontakter igen.</string>
+</resources>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://derrij.github.io/SpotPricePlugs/sitemap.xml

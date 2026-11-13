@@ -1,0 +1,10 @@
+title: Spot Price Plugs
+description: Smart plugs switch on by themselves during the cheapest Nord Pool hours
+url: https://derrij.github.io
+baseurl: /SpotPricePlugs
+lang: en
+markdown: kramdown
+exclude: [DETAILS.md, DETAILS.en.md, screen-*.png]
+# Generates /sitemap.xml (referenced from robots.txt); supported by GitHub Pages.
+plugins:
+  - jekyll-sitemap

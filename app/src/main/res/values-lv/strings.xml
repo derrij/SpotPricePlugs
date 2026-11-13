@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="cancel">Atcelt</string>
+    <string name="save">Saglabāt</string>
+    <string name="msg_error">Kļūda: %1$s</string>
+    <string name="msg_failed">Neizdevās: %1$s</string>
+
+    <!-- Header -->
+    <string name="tagline">Rozetes ieslēdzas, kad elektrība ir lētākā</string>
+    <string name="last_run">Pēdējā palaišana: %1$s</string>
+    <string name="last_run_info">Pēdējā palaišana: %1$s · %2$s</string>
+    <string name="never_run">vēl nav palaists</string>
+    <string name="next_run">Nākamais atjauninājums: %1$s</string>
+    <string name="saved_30_days">Ietaupīts pēdējās 30 dienās: %1$s</string>
+
+    <!-- Update -->
+    <string name="update_title">Pieejams atjauninājums</string>
+    <string name="update_text">Ir iznākusi %1$s versija. Tā instalējas pa virsu esošajai; rozetes un iestatījumi paliek.</string>
+    <string name="update_download">Lejupielādēt</string>
+    <string name="update_later">Vēlāk</string>
+    <string name="update_checking">Pārbauda…</string>
+    <string name="update_available">Pieejama %1$s versija</string>
+    <string name="update_latest">Jums ir jaunākā versija</string>
+    <string name="update_failed">Nevarēja pārbaudīt: %1$s</string>
+    <string name="update_channel">Lietotnes atjauninājumi</string>
+    <string name="update_notification">Pieejama jauna versija — pieskarieties, lai lejupielādētu</string>
+
+    <!-- Support -->
+    <string name="support_title">Atbalstīt projektu</string>
+    <string name="support_saved">Šomēnes lietotne jums ietaupīja %1$s.</string>
+    <string name="support_text">Spot Price Plugs ir bez maksas, bez reklāmām un ar atvērtu kodu. Ja tas jums noder, pacienojiet autoru ar kafiju — tas palīdz pievienot jaunas ierīces un reģionus.</string>
+    <string name="support_bug">Ziņot par kļūdu</string>
+
+    <!-- About -->
+    <string name="about_title">Par lietotni</string>
+    <string name="about_version">Versija %1$s</string>
+    <string name="about_check">Pārbaudīt</string>
+    <string name="about_language">Valoda</string>
+    <string name="about_note">Cena = Nord Pool biržas cena + PVN. Plāns izmanto tikai nākotnes 15 minūšu intervālus; rītdiena tiek pievienota, tiklīdz birža to publicē (ap 13:00 CET). Licence: GNU GPL v3.</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Atļaujas</string>
+    <string name="perm_exact">Precīzi signāli</string>
+    <string name="perm_background">Darbs fonā</string>
+    <string name="perm_notifications">Paziņojumi</string>
+    <string name="perm_allowed">atļauts</string>
+    <string name="perm_denied">aizliegts</string>
+    <string name="perm_unrestricted">neierobežots</string>
+    <string name="perm_restricted">ierobežots</string>
+    <string name="perm_btn_alarms">Signāli</string>
+    <string name="perm_btn_battery">Akumulators</string>
+    <string name="perm_btn_notifications">Atļaut paziņojumus</string>
+    <string name="perm_hint">Bez šīm atļaujām Android var kavēt atjauninājumus par vairākām stundām.</string>
+
+    <!-- Network -->
+    <string name="net_title">Tīkls</string>
+    <string name="net_subnet">Apakštīkls</string>
+    <string name="net_auto">Auto</string>
+    <string name="net_scan">Atrast rozetes</string>
+    <string name="net_hint">Telefonam jābūt tajā pašā Wi-Fi tīklā kā rozetēm. Jau atrastās rozetes saglabājas.</string>
+    <string name="msg_subnet_invalid">Apakštīklam jāizskatās pēc 192.168.1</string>
+    <string name="msg_wifi_unknown">Nevarēja noteikt Wi-Fi tīklu</string>
+    <string name="msg_network">Tīkls: %1$s.0/24</string>
+    <string name="msg_none_found">Rozetes nav atrastas. Pārliecinieties, ka telefons ir tajā pašā Wi-Fi tīklā.</string>
+    <string name="msg_found">Atrastas ierīces: %1$d</string>
+    <string name="msg_scan_error">Skenēšana neizdevās: %1$s</string>
+
+    <!-- Plugs -->
+    <string name="plugs_title">Rozetes</string>
+    <string name="plugs_title_count">Rozetes (%1$d)</string>
+    <string name="plugs_empty">Šeit vēl nekas nav. Ieslēdziet Tasmota vai Shelly rozeti, pievienojiet telefonu tam pašam Wi-Fi un pieskarieties “Atrast rozetes”.</string>
+    <string name="refresh_all">Atjaunināt visas</string>
+    <string name="refresh_sending">Sūta…</string>
+    <string name="msg_scan_first">Vispirms skenējiet tīklu</string>
+    <string name="msg_saved_plug">Saglabāts: %1$s</string>
+    <string name="msg_deleted_plug">Noņemts: %1$s</string>
+    <string name="msg_power_on">Rozete ieslēgta</string>
+    <string name="msg_power_off">Rozete izslēgta</string>
+    <string name="msg_plan_on">Grafiks atsākts</string>
+    <string name="msg_plan_off">Grafiks pauzēts</string>
+
+    <!-- Plug card -->
+    <string name="plug_region_from_settings">reģions no iestatījumiem</string>
+    <string name="plug_on">IESLĒGTS</string>
+    <string name="plug_off">IZSLĒGTS</string>
+    <string name="plug_paused">Grafiks pauzēts — taimeri ir izslēgti, plānotājs nekontrolē releju</string>
+    <string name="plug_now_price">Tagad: %1$s €/kWh</string>
+    <string name="plug_saved">Ietaupīts: šodien %1$s · 7 dienas %2$s</string>
+    <string name="plug_updated">Atjaunināts %1$s · nākamais %2$s</string>
+    <string name="plug_turn_on">Ieslēgt</string>
+    <string name="plug_turn_off">Izslēgt</string>
+    <string name="plug_pause">Pauzēt grafiku</string>
+    <string name="plug_resume">Atsākt</string>
+    <string name="plug_params">%1$s h/dienā · max %2$s €</string>
+    <string name="plug_watts">%1$s W</string>
+    <string name="plug_edit">Rediģēt</string>
+    <string name="plug_recalc">Pārrēķināt</string>
+    <string name="plug_delete">Noņemt rozeti</string>
+    <string name="plug_delete_title">Noņemt rozeti?</string>
+    <string name="plug_delete_text">“%1$s” tiks noņemta no saraksta. Taimeri, kas jau ierakstīti rozetē, turpina darboties, līdz jūs tos maināt.</string>
+    <string name="plug_delete_confirm">Noņemt</string>
+    <string name="plug_region_error">Reģions: LV, EE, LT, FI, SE3, NO1 …</string>
+    <string name="edit_hours">Stundas/dienā</string>
+    <string name="edit_limit">Max €/kWh</string>
+    <string name="edit_unknown">nezināms</string>
+    <string name="legend_cheap">lēts</string>
+    <string name="legend_expensive">dārgs</string>
+    <string name="legend_on">ieslēgts</string>
+    <string name="plan_covered">Plāns: %1$s, atlicis %2$s</string>
+    <string name="plan_today">šodien</string>
+    <string name="plan_today_tomorrow">šodien un rīt</string>
+    <string name="plan_one_day">1 diena</string>
+    <plurals name="plan_days">
+        <item quantity="zero">%1$d dienu</item>
+        <item quantity="one">%1$d diena</item>
+        <item quantity="other">%1$d dienas</item>
+    </plurals>
+    <string name="sum_on">ieslēgts: %1$s</string>
+    <string name="day_today">šodien %1$s</string>
+    <string name="day_tomorrow">rīt %1$s</string>
+    <string name="name_preview">Nosaukums rozetei</string>
+    <string name="name_copy">Kopēt nosaukumu</string>
+    <string name="plug_open_page">Atvērt rozetes tīmekļa lapu</string>
+    <string name="name_copied">Nosaukums nokopēts. Ielīmējiet to kā Device Name rozetes tīmekļa interfeisā, tad pieskarieties “Atrast rozetes”.</string>
+    <string name="sum_avg">vidēji %1$s €/kWh</string>
+    <string name="sum_cheaper">par %1$s%% lētāk</string>
+    <string name="sum_saves">ietaupa ≈ %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Iestatījumi</string>
+    <string name="set_vat" formatted="false">PVN, %</string>
+    <string name="set_vat_auto">auto</string>
+    <string name="set_refresh">Ikdienas atjauninājums</string>
+    <string name="set_hours">Stundas/dienā</string>
+    <string name="set_limit">Max cena, €</string>
+    <string name="set_region">Reģions</string>
+    <string name="set_watts">Jauda, W</string>
+    <string name="set_watts_none">nav norādīts</string>
+    <string name="set_save">Saglabāt iestatījumus</string>
+    <string name="set_hint">Noklusējuma vērtības rozetēm, kuru nosaukums tās nenorāda. Nosaukuma piemērs: %1$s</string>
+    <string name="msg_time_invalid">Atjaunināšanas laikam jāizskatās pēc 14:05</string>
+    <string name="msg_region_unknown">Nezināms reģions: %1$s</string>
+    <string name="msg_settings_saved">Iestatījumi saglabāti</string>
+
+    <!-- Durations and switching -->
+    <string name="dur_hm">%1$d h %2$d min</string>
+    <string name="dur_h">%1$d h</string>
+    <string name="dur_m">%1$d min</string>
+    <string name="sw_on_left">IESLĒGTS vēl %1$s</string>
+    <string name="sw_on_in">IESLĒGSIES pēc %1$s</string>
+    <string name="sw_on_today">IESLĒGSIES šodien %1$s</string>
+    <string name="sw_on_tomorrow">IESLĒGSIES rīt %1$s</string>
+
+    <!-- Background refresh -->
+    <string name="refresh_channel">Grafika atjauninājumi</string>
+    <string name="refresh_running">Atjaunina rozetes grafikus…</string>
+    <string name="r_no_plugs">Nav saglabātu rozetešu</string>
+    <string name="r_no_region">Iestatiet reģionu lietotnē vai ierīces nosaukumā</string>
+    <string name="r_no_prices">Šodienas cenas nav saņemtas</string>
+    <string name="r_ok">Atjauninātas rozetes: %1$d</string>
+    <string name="r_fail">Neizdevās: %1$d</string>
+    <string name="r_mixed">Atjauninātas: %1$d, kļūdas: %2$d</string>
+
+    <!-- Device errors -->
+    <string name="e_incomplete">Dati par %1$s ir nepilnīgi: trūkst %2$d intervālu. Cenas vēl nav publicētas?</string>
+    <string name="e_http">%1$s atgrieza HTTP %2$d</string>
+    <string name="e_no_reply">%1$s neatbildēja: %2$s</string>
+    <string name="e_rejected">%1$s noraidīja komandu: %2$s</string>
+    <string name="e_schedule_rejected">%1$s noraidīja grafiku</string>
+    <string name="e_too_many_blocks">Vairāk nekā %1$d ieslēgšanas/izslēgšanas bloku — tie neietilpst ierīces grafikā</string>
+
+    <!-- Network errors, accessibility -->
+    <string name="e_net_timeout">savienojuma noildze</string>
+    <string name="e_net_refused">savienojums atteikts</string>
+    <string name="e_net_unreachable">adrese nav sasniedzama — pārbaudiet Wi-Fi savienojumu</string>
+    <string name="e_net_dns">serveris nav atrasts — pārbaudiet interneta savienojumu</string>
+    <string name="e_net_io">tīkla kļūda</string>
+    <string name="e_unknown">neparedzēta kļūda</string>
+    <string name="plug_kind_unknown">nezināms tips</string>
+    <string name="plug_region_missing">Reģions nav iestatīts</string>
+    <string name="plan_chart_desc">Cenu diagramma: no %1$s līdz %2$s €/kWh, ieslēgta %3$s</string>
+    <string name="e_no_time">%1$s: rozetes pulkstenis nav iestatīts. Pievienojiet to internetam (NTP) un mēģiniet vēlreiz.</string>
+    <string name="plug_unmanaged">Netiek vadīta — lietotne šo ierīci neaiztiek.</string>
+    <string name="plug_manage">Vadīt šo rozeti</string>
+    <string name="plug_unmanage">Pārtraukt vadību</string>
+    <string name="e_wrong_device">%1$s: šajā adresē atbild cita ierīce. Palaidiet rozešu meklēšanu vēlreiz.</string>
+</resources>

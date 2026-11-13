@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- System bar colours are not set here: MainActivity draws edge-to-edge
+         with transparent dark-style bars (light icons), see enableEdgeToEdge(). -->
+    <style name="Theme.Plug" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#0F1319</item>
+    </style>
+</resources>

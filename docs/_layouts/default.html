@@ -1,0 +1,137 @@
+{%- assign L = page.lang | default: site.lang -%}
+{%- case L -%}
+  {%- when 'ru' -%}{%- assign t_home = 'Главная' -%}{%- assign t_blog = 'Блог' -%}{%- assign t_dl = 'Скачать APK' -%}
+  {%- when 'lv' -%}{%- assign t_home = 'Sākums' -%}{%- assign t_blog = 'Blogs' -%}{%- assign t_dl = 'Lejupielādēt APK' -%}
+  {%- when 'ee' -%}{%- assign t_home = 'Avaleht' -%}{%- assign t_blog = 'Blogi' -%}{%- assign t_dl = 'Laadi alla APK' -%}
+  {%- when 'lt' -%}{%- assign t_home = 'Pradžia' -%}{%- assign t_blog = 'Tinklaraštis' -%}{%- assign t_dl = 'Atsisiųsti APK' -%}
+  {%- when 'fi' -%}{%- assign t_home = 'Etusivu' -%}{%- assign t_blog = 'Blogi' -%}{%- assign t_dl = 'Lataa APK' -%}
+  {%- when 'sv' -%}{%- assign t_home = 'Hem' -%}{%- assign t_blog = 'Blogg' -%}{%- assign t_dl = 'Ladda ner APK' -%}
+  {%- when 'da' -%}{%- assign t_home = 'Forside' -%}{%- assign t_blog = 'Blog' -%}{%- assign t_dl = 'Hent APK' -%}
+  {%- when 'nb' -%}{%- assign t_home = 'Hjem' -%}{%- assign t_blog = 'Blogg' -%}{%- assign t_dl = 'Last ned APK' -%}
+  {%- when 'pl' -%}{%- assign t_home = 'Strona główna' -%}{%- assign t_blog = 'Blog' -%}{%- assign t_dl = 'Pobierz APK' -%}
+  {%- when 'de' -%}{%- assign t_home = 'Startseite' -%}{%- assign t_blog = 'Blog' -%}{%- assign t_dl = 'APK herunterladen' -%}
+  {%- when 'nl' -%}{%- assign t_home = 'Home' -%}{%- assign t_blog = 'Blog' -%}{%- assign t_dl = 'APK downloaden' -%}
+  {%- when 'fr' -%}{%- assign t_home = 'Accueil' -%}{%- assign t_blog = 'Blog' -%}{%- assign t_dl = "Télécharger l'APK" -%}
+  {%- else -%}{%- assign t_home = 'Home' -%}{%- assign t_blog = 'Blog' -%}{%- assign t_dl = 'Download APK' -%}
+{%- endcase -%}
+{%- comment -%} The Estonian section lives in /ee/, but the language code is "et" ("ee" is Ewe). {%- endcomment -%}
+{%- if L == 'ee' -%}{%- assign html_lang = 'et' -%}{%- else -%}{%- assign html_lang = L -%}{%- endif -%}
+{%- assign langs = "en,ru,lv,ee,lt,fi,sv,da,nb,pl,de,nl,fr" | split: "," -%}
+<!DOCTYPE html>
+<html lang="{{ html_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Spot Price Plugs</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Spot Price Plugs">
+  <meta property="og:title" content="{{ page.title | default: 'Spot Price Plugs' }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: 'Spot Price Plugs' }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/og-image.png">
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  {%- assign home_url = "/" | append: L | append: "/" -%}
+  {%- assign blog_url = home_url | append: "blog/" -%}
+  {%- if page.url == home_url or page.url == blog_url -%}
+    {%- for l in langs -%}
+      {%- if l == 'ee' -%}{%- assign hl = 'et' -%}{%- else -%}{%- assign hl = l -%}{%- endif -%}
+      {%- if page.url == home_url %}
+  <link rel="alternate" hreflang="{{ hl }}" href="{{ site.url }}{{ site.baseurl }}/{{ l }}/">
+      {%- else %}
+  <link rel="alternate" hreflang="{{ hl }}" href="{{ site.url }}{{ site.baseurl }}/{{ l }}/blog/">
+      {%- endif -%}
+    {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}/en/{% if page.url == blog_url %}blog/{% endif %}">
+  {%- endif %}
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <style>
+    :root { --accent:#3EA6FF; --text:#1c2430; --muted:#5b6b7c; --bg:#ffffff; --soft:#f2f6fa; --border:#dfe7ee; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,sans-serif; color:var(--text); background:var(--bg); line-height:1.6; }
+    header { background:var(--soft); border-bottom:1px solid var(--border); }
+    .wrap { max-width:820px; margin:0 auto; padding:0 20px; }
+    .topbar { display:flex; justify-content:space-between; align-items:center; padding:14px 0; flex-wrap:wrap; gap:8px; }
+    .brand { font-weight:700; font-size:18px; text-decoration:none; color:var(--text); }
+    .brand span { color:var(--accent); }
+    nav a, .langs a { text-decoration:none; color:var(--muted); margin-left:14px; font-size:14px; }
+    nav a:hover, .langs a:hover { color:var(--accent); }
+    .langs a.active { color:var(--text); font-weight:600; }
+    .langs select { padding:4px 6px; border:1px solid var(--border); border-radius:6px; background:#fff; color:var(--text); font-size:14px; }
+    main { padding:32px 0 48px; }
+    h1 { font-size:30px; line-height:1.25; margin:0 0 12px; }
+    h2 { font-size:22px; margin-top:36px; }
+    a { color:var(--accent); }
+    .lead { font-size:18px; color:var(--muted); margin-top:0; }
+    .btn { display:inline-block; background:var(--accent); color:#fff !important; padding:12px 22px; border-radius:8px; text-decoration:none; font-weight:600; margin:6px 10px 6px 0; }
+    .btn.ghost { background:transparent; color:var(--accent) !important; border:1px solid var(--accent); }
+    .card { background:var(--soft); border:1px solid var(--border); border-radius:10px; padding:16px 20px; margin:14px 0; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:18px 0; }
+    .muted { color:var(--muted); font-size:14px; }
+    footer { border-top:1px solid var(--border); padding:20px 0 40px; color:var(--muted); font-size:14px; }
+    table { border-collapse:collapse; width:100%; margin:14px 0; }
+    th, td { border:1px solid var(--border); padding:8px 12px; text-align:left; font-size:15px; }
+    th { background:var(--soft); }
+    code { background:var(--soft); padding:2px 6px; border-radius:4px; font-size:0.9em; }
+    pre code { display:block; padding:12px; overflow-x:auto; }
+    .post-meta { color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap topbar">
+    <a class="brand" href="{{ site.baseurl }}/{{ L }}/">⚡ Spot<span>Price</span> Plugs</a>
+    <div>
+      <nav>
+        <a href="{{ site.baseurl }}/{{ L }}/">{{ t_home }}</a>
+        <a href="{{ site.baseurl }}/{{ L }}/blog/">{{ t_blog }}</a>
+        <a href="https://github.com/derrij/SpotPricePlugs">GitHub</a>
+        <a href="https://github.com/derrij/SpotPricePlugs/releases/latest">{{ t_dl }}</a>
+      </nav>
+      <span class="langs">
+        <select id="langsel" aria-label="Language" title="Language">
+          <option value="en">EN</option>
+          <option value="ru">RU</option>
+          <option value="lv">LV</option>
+          <option value="ee">EE</option>
+          <option value="lt">LT</option>
+          <option value="fi">FI</option>
+          <option value="sv">SV</option>
+          <option value="da">DA</option>
+          <option value="nb">NO</option>
+          <option value="pl">PL</option>
+          <option value="de">DE</option>
+          <option value="nl">NL</option>
+          <option value="fr">FR</option>
+        </select>
+        <script>
+          (function () {
+            var s = document.getElementById("langsel");
+            s.value = "{{ L }}";
+            s.onchange = function () {
+              try { localStorage.setItem("spl-lang", s.value); } catch (e) {}
+              location.href = "{{ site.baseurl }}/" + s.value + "/";
+            };
+          })();
+        </script>
+      </span>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  {{ content }}
+</main>
+<footer>
+  <div class="wrap">
+    <a href="https://github.com/derrij/SpotPricePlugs">GitHub</a> ·
+    <a href="https://github.com/derrij/SpotPricePlugs/releases/latest">{{ t_dl }}</a> ·
+    <a href="https://buymeacoffee.com/derrij">Buy me a coffee ☕</a>
+    <p class="muted">© 2026 Spot Price Plugs · GPL-3.0 · Not affiliated with Nord Pool AS, Shelly Group or the Tasmota project. Prices come from the public Nord Pool API.</p>
+  </div>
+</footer>
+</body>
+</html>

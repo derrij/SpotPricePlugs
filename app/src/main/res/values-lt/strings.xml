@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="cancel">Atšaukti</string>
+    <string name="save">Įrašyti</string>
+    <string name="msg_error">Klaida: %1$s</string>
+    <string name="msg_failed">Nepavyko: %1$s</string>
+
+    <!-- Header -->
+    <string name="tagline">Rozetės įsijungia, kai elektra pigiausia</string>
+    <string name="last_run">Paskutinis paleidimas: %1$s</string>
+    <string name="last_run_info">Paskutinis paleidimas: %1$s · %2$s</string>
+    <string name="never_run">dar nepaleista</string>
+    <string name="next_run">Kitas atnaujinimas: %1$s</string>
+    <string name="saved_30_days">Sutaupyta per paskutines 30 dienų: %1$s</string>
+
+    <!-- Update -->
+    <string name="update_title">Yra atnaujinimas</string>
+    <string name="update_text">Išleista %1$s versija. Ji įdiegiama ant esamos; rozetės ir nustatymai lieka.</string>
+    <string name="update_download">Atsisiųsti</string>
+    <string name="update_later">Vėliau</string>
+    <string name="update_checking">Tikrinama…</string>
+    <string name="update_available">Yra %1$s versija</string>
+    <string name="update_latest">Turite naujausią versiją</string>
+    <string name="update_failed">Nepavyko patikrinti: %1$s</string>
+    <string name="update_channel">Programos atnaujinimai</string>
+    <string name="update_notification">Yra nauja versija — palieskite, kad atsisiųstumėte</string>
+
+    <!-- Support -->
+    <string name="support_title">Paremti projektą</string>
+    <string name="support_saved">Šį mėnesį programa sutaupė %1$s.</string>
+    <string name="support_text">Spot Price Plugs — nemokama, be reklamų ir atviro kodo. Jei jums naudinga, pavaišinkite autorių kava — tai padeda pridėti naujus įrenginius ir regionus.</string>
+    <string name="support_bug">Pranešti apie klaidą</string>
+
+    <!-- About -->
+    <string name="about_title">Apie</string>
+    <string name="about_version">Versija %1$s</string>
+    <string name="about_check">Patikrinti</string>
+    <string name="about_language">Kalba</string>
+    <string name="about_note">Kaina = Nord Pool biržos kaina + PVM. Planas naudoja tik būsimus 15 minučių intervalus; rytojaus pridedama, kai birža paskelbia (apytiksliai 13:00 CET). Licencija: GNU GPL v3.</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Leidimai</string>
+    <string name="perm_exact">Tikslūs signalai</string>
+    <string name="perm_background">Darbas fone</string>
+    <string name="perm_notifications">Pranešimai</string>
+    <string name="perm_allowed">leidžiama</string>
+    <string name="perm_denied">uždrausta</string>
+    <string name="perm_unrestricted">neapribotas</string>
+    <string name="perm_restricted">apribotas</string>
+    <string name="perm_btn_alarms">Signalai</string>
+    <string name="perm_btn_battery">Baterija</string>
+    <string name="perm_btn_notifications">Leisti pranešimus</string>
+    <string name="perm_hint">Be šių leidimų Android gali atidėti atnaujinimus valandomis.</string>
+
+    <!-- Network -->
+    <string name="net_title">Tinklas</string>
+    <string name="net_subnet">Potinklis</string>
+    <string name="net_auto">Automatiškai</string>
+    <string name="net_scan">Rasti rozetes</string>
+    <string name="net_hint">Telefonas turi būti tame pačiame Wi-Fi tinkle kaip rozetės. Jau rastos rozetės išlieka.</string>
+    <string name="msg_subnet_invalid">Potinklis turi atrodyti kaip 192.168.1</string>
+    <string name="msg_wifi_unknown">Nepavyko nustatyti Wi-Fi tinklo</string>
+    <string name="msg_network">Tinklas: %1$s.0/24</string>
+    <string name="msg_none_found">Rozetių nerasta. Įsitikinkite, kad telefonas yra tame pačiame Wi-Fi tinkle.</string>
+    <string name="msg_found">Rasta įrenginių: %1$d</string>
+    <string name="msg_scan_error">Nuskaitymas nepavyko: %1$s</string>
+
+    <!-- Plugs -->
+    <string name="plugs_title">Rozetės</string>
+    <string name="plugs_title_count">Rozetės (%1$d)</string>
+    <string name="plugs_empty">Čia kol kas nieko nėra. Įjunkite Tasmota arba Shelly rozetę, prijunkite telefoną prie to paties Wi-Fi ir palieskite „Rasti rozetes“.</string>
+    <string name="refresh_all">Atnaujinti visas</string>
+    <string name="refresh_sending">Siunčiama…</string>
+    <string name="msg_scan_first">Pirmiausia nuskenuokite tinklą</string>
+    <string name="msg_saved_plug">Įrašyta: %1$s</string>
+    <string name="msg_deleted_plug">Pašalinta: %1$s</string>
+    <string name="msg_power_on">Rozetė įjungta</string>
+    <string name="msg_power_off">Rozetė išjungta</string>
+    <string name="msg_plan_on">Grafikas pratęstas</string>
+    <string name="msg_plan_off">Grafikas pristabdytas</string>
+
+    <!-- Plug card -->
+    <string name="plug_region_from_settings">regionas iš nustatymų</string>
+    <string name="plug_on">ĮJUNGTA</string>
+    <string name="plug_off">IŠJUNGTA</string>
+    <string name="plug_paused">Grafikas pristabdytas — laikmačiai išjungti, planuoklė nevaldo relės</string>
+    <string name="plug_now_price">Dabar: %1$s €/kWh</string>
+    <string name="plug_saved">Sutaupyta: šiandien %1$s · 7 dienos %2$s</string>
+    <string name="plug_updated">Atnaujinta %1$s · kita %2$s</string>
+    <string name="plug_turn_on">Įjungti</string>
+    <string name="plug_turn_off">Išjungti</string>
+    <string name="plug_pause">Pristabdyti planą</string>
+    <string name="plug_resume">Tęsti</string>
+    <string name="plug_params">%1$s val./d. · max %2$s €</string>
+    <string name="plug_watts">%1$s W</string>
+    <string name="plug_edit">Redaguoti</string>
+    <string name="plug_recalc">Perskaičiuoti</string>
+    <string name="plug_delete">Pašalinti rozetę</string>
+    <string name="plug_delete_title">Pašalinti rozetę?</string>
+    <string name="plug_delete_text">„%1$s“ bus pašalinta iš sąrašo. Laikmačiai, jau įrašyti į rozetę, veiks toliau, kol juos pakeisite.</string>
+    <string name="plug_delete_confirm">Pašalinti</string>
+    <string name="plug_region_error">Regionas: LV, EE, LT, FI, SE3, NO1 …</string>
+    <string name="edit_hours">Val./d.</string>
+    <string name="edit_limit">Max €/kWh</string>
+    <string name="edit_unknown">nežinoma</string>
+    <string name="legend_cheap">pigi</string>
+    <string name="legend_expensive">brangi</string>
+    <string name="legend_on">įjungta</string>
+    <string name="plan_covered">Planas: %1$s, liko %2$s</string>
+    <string name="plan_today">šiandien</string>
+    <string name="plan_today_tomorrow">šiandien ir rytoj</string>
+    <string name="plan_one_day">1 diena</string>
+    <plurals name="plan_days">
+        <item quantity="one">%1$d diena</item>
+        <item quantity="few">%1$d dienos</item>
+        <item quantity="many">%1$d dienos</item>
+        <item quantity="other">%1$d dienų</item>
+    </plurals>
+    <string name="sum_on">įjungta: %1$s</string>
+    <string name="day_today">šiandien %1$s</string>
+    <string name="day_tomorrow">rytoj %1$s</string>
+    <string name="name_preview">Rozetės pavadinimas</string>
+    <string name="name_copy">Kopijuoti pavadinimą</string>
+    <string name="plug_open_page">Atidaryti rozetės tinklalapį</string>
+    <string name="name_copied">Pavadinimas nukopijuotas. Įklijuokite jį kaip Device Name rozetės žiniatinklio sąsajoje, tada palieskite „Rasti rozetes“.</string>
+    <string name="sum_avg">vid. %1$s €/kWh</string>
+    <string name="sum_cheaper">%1$s%% pigiau</string>
+    <string name="sum_saves">sutaupo ≈ %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Nustatymai</string>
+    <string name="set_vat" formatted="false">PVM, %</string>
+    <string name="set_vat_auto">auto</string>
+    <string name="set_refresh">Kasdienis atnaujinimas</string>
+    <string name="set_hours">Val./d.</string>
+    <string name="set_limit">Max kaina, €</string>
+    <string name="set_region">Regionas</string>
+    <string name="set_watts">Galia, W</string>
+    <string name="set_watts_none">nenustatyta</string>
+    <string name="set_save">Įrašyti nustatymus</string>
+    <string name="set_hint">Numatytosios reikšmės rozetėms, kurių pavadinime jų nėra. Pavadinimo pavyzdys: %1$s</string>
+    <string name="msg_time_invalid">Atnaujinimo laikas turi atrodyti kaip 14:05</string>
+    <string name="msg_region_unknown">Nežinomas regionas: %1$s</string>
+    <string name="msg_settings_saved">Nustatymai įrašyti</string>
+
+    <!-- Durations and switching -->
+    <string name="dur_hm">%1$d val. %2$d min.</string>
+    <string name="dur_h">%1$d val.</string>
+    <string name="dur_m">%1$d min.</string>
+    <string name="sw_on_left">ĮJUNGTA dar %1$s</string>
+    <string name="sw_on_in">ĮJUNGSIS po %1$s</string>
+    <string name="sw_on_today">ĮJUNGSIS šiandien %1$s</string>
+    <string name="sw_on_tomorrow">ĮJUNGSIS rytoj %1$s</string>
+
+    <!-- Background refresh -->
+    <string name="refresh_channel">Grafikų atnaujinimai</string>
+    <string name="refresh_running">Atnaujinami rozėčių grafikai…</string>
+    <string name="r_no_plugs">Nėra įrašytų rozėčių</string>
+    <string name="r_no_region">Nustatykite regioną programoje arba įrenginio pavadinime</string>
+    <string name="r_no_prices">Šiandienos kainų negauta</string>
+    <string name="r_ok">Atnaujinta rozėčių: %1$d</string>
+    <string name="r_fail">Nepavyko: %1$d</string>
+    <string name="r_mixed">Atnaujinta: %1$d, klaidų: %2$d</string>
+
+    <!-- Device errors -->
+    <string name="e_incomplete">%1$s duomenys nepilni: trūksta %2$d intervalų. Kainos dar nepaskelbtos?</string>
+    <string name="e_http">%1$s grąžino HTTP %2$d</string>
+    <string name="e_no_reply">%1$s neatsakė: %2$s</string>
+    <string name="e_rejected">%1$s atmetė komandą: %2$s</string>
+    <string name="e_schedule_rejected">%1$s atmetė grafiką</string>
+    <string name="e_too_many_blocks">Daugiau nei %1$d įjungimo/išjungimo blokų — jie netelpa į įrenginio grafiką</string>
+
+    <!-- Network errors, accessibility -->
+    <string name="e_net_timeout">baigėsi ryšio laikas</string>
+    <string name="e_net_refused">ryšys atmestas</string>
+    <string name="e_net_unreachable">adresas nepasiekiamas — patikrinkite Wi-Fi ryšį</string>
+    <string name="e_net_dns">serveris nerastas — patikrinkite interneto ryšį</string>
+    <string name="e_net_io">tinklo klaida</string>
+    <string name="e_unknown">netikėta klaida</string>
+    <string name="plug_kind_unknown">nežinomas tipas</string>
+    <string name="plug_region_missing">Regionas nenustatytas</string>
+    <string name="plan_chart_desc">Kainų diagrama: nuo %1$s iki %2$s €/kWh, įjungta %3$s</string>
+    <string name="e_no_time">%1$s: rozetės laikrodis nenustatytas. Prijunkite ją prie interneto (NTP) ir bandykite dar kartą.</string>
+    <string name="plug_unmanaged">Nevaldoma — programėlė šio įrenginio neliečia.</string>
+    <string name="plug_manage">Valdyti šią rozetę</string>
+    <string name="plug_unmanage">Nebevaldyti</string>
+    <string name="e_wrong_device">%1$s: šiuo adresu atsako kitas įrenginys. Paleiskite rozečių paiešką iš naujo.</string>
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="cancel">Annuller</string>
+    <string name="save">Gem</string>
+    <string name="msg_error">Fejl: %1$s</string>
+    <string name="msg_failed">Mislykkedes: %1$s</string>
+
+    <!-- Header -->
+    <string name="tagline">Stikkene tænder, når strømmen er billigst</string>
+    <string name="last_run">Sidste kørsel: %1$s</string>
+    <string name="last_run_info">Sidste kørsel: %1$s · %2$s</string>
+    <string name="never_run">ikke kørt endnu</string>
+    <string name="next_run">Næste opdatering: %1$s</string>
+    <string name="saved_30_days">Sparet de seneste 30 dage: %1$s</string>
+
+    <!-- Update -->
+    <string name="update_title">Opdatering tilgængelig</string>
+    <string name="update_text">Version %1$s er ude. Den installeres oven på den nuværende; stik og indstillinger bevares.</string>
+    <string name="update_download">Hent</string>
+    <string name="update_later">Senere</string>
+    <string name="update_checking">Tjekker…</string>
+    <string name="update_available">Version %1$s er tilgængelig</string>
+    <string name="update_latest">Du har den nyeste version</string>
+    <string name="update_failed">Kunne ikke tjekke: %1$s</string>
+    <string name="update_channel">App-opdateringer</string>
+    <string name="update_notification">En ny version er tilgængelig — tryk for at downloade</string>
+
+    <!-- Support -->
+    <string name="support_title">Støt projektet</string>
+    <string name="support_saved">Appen sparede dig for %1$s denne måned.</string>
+    <string name="support_text">Spot Price Plugs er gratis, reklamefri og open source. Hvis den er nyttig for dig, så inviter skaberen på en kop kaffe — det hjælper med at tilføje nye enheder og regioner.</string>
+    <string name="support_bug">Rapportér en fejl</string>
+
+    <!-- About -->
+    <string name="about_title">Om</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_check">Tjek</string>
+    <string name="about_language">Sprog</string>
+    <string name="about_note">Pris = Nord Pool-børspris + moms. Planen bruger kun fremtidige 15-minutters intervaller; i morgen tilføjes, så snart børsen offentliggør det (omkring 13:00 CET). Licens: GNU GPL v3.</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Tilladelser</string>
+    <string name="perm_exact">Præcise alarmer</string>
+    <string name="perm_background">Baggrundsarbejde</string>
+    <string name="perm_notifications">Notifikationer</string>
+    <string name="perm_allowed">tilladt</string>
+    <string name="perm_denied">afvist</string>
+    <string name="perm_unrestricted">ubegrænset</string>
+    <string name="perm_restricted">begrænset</string>
+    <string name="perm_btn_alarms">Alarmer</string>
+    <string name="perm_btn_battery">Batteri</string>
+    <string name="perm_btn_notifications">Tillad notifikationer</string>
+    <string name="perm_hint">Uden disse tilladelser kan Android udsætte opdateringer i timer.</string>
+
+    <!-- Network -->
+    <string name="net_title">Netværk</string>
+    <string name="net_subnet">Delnetværk</string>
+    <string name="net_auto">Auto</string>
+    <string name="net_scan">Find stik</string>
+    <string name="net_hint">Telefonen skal være på samme Wi-Fi som stikkene. Allerede fundne stik bevares.</string>
+    <string name="msg_subnet_invalid">Delnetværket skal se ud som 192.168.1</string>
+    <string name="msg_wifi_unknown">Kunne ikke registrere Wi-Fi-netværket</string>
+    <string name="msg_network">Netværk: %1$s.0/24</string>
+    <string name="msg_none_found">Ingen stik fundet. Sørg for, at telefonen er på samme Wi-Fi.</string>
+    <string name="msg_found">Enheder fundet: %1$d</string>
+    <string name="msg_scan_error">Skanning mislykkedes: %1$s</string>
+
+    <!-- Plugs -->
+    <string name="plugs_title">Stik</string>
+    <string name="plugs_title_count">Stik (%1$d)</string>
+    <string name="plugs_empty">Her er intet endnu. Tænd for et Tasmota- eller Shelly-stik, forbind telefonen til samme Wi-Fi og tryk “Find stik”.</string>
+    <string name="refresh_all">Opdater alle</string>
+    <string name="refresh_sending">Sender…</string>
+    <string name="msg_scan_first">Scan netværket først</string>
+    <string name="msg_saved_plug">Gemt: %1$s</string>
+    <string name="msg_deleted_plug">Fjernet: %1$s</string>
+    <string name="msg_power_on">Stikket tændte</string>
+    <string name="msg_power_off">Stikket slukkede</string>
+    <string name="msg_plan_on">Skema genoptaget</string>
+    <string name="msg_plan_off">Skema sat på pause</string>
+
+    <!-- Plug card -->
+    <string name="plug_region_from_settings">region fra indstillinger</string>
+    <string name="plug_on">TÆNDT</string>
+    <string name="plug_off">SLUKKET</string>
+    <string name="plug_paused">Skema på pause — timere er slukket, planlæggeren styrer ikke relæet</string>
+    <string name="plug_now_price">Nu: %1$s €/kWh</string>
+    <string name="plug_saved">Sparet: i dag %1$s · 7 dage %2$s</string>
+    <string name="plug_updated">Opdateret %1$s · næste %2$s</string>
+    <string name="plug_turn_on">Tænd</string>
+    <string name="plug_turn_off">Sluk</string>
+    <string name="plug_pause">Sæt skema på pause</string>
+    <string name="plug_resume">Genoptag</string>
+    <string name="plug_params">%1$s t/døgn · maks %2$s €</string>
+    <string name="plug_watts">%1$s W</string>
+    <string name="plug_edit">Rediger</string>
+    <string name="plug_recalc">Beregn igen</string>
+    <string name="plug_delete">Fjern stik</string>
+    <string name="plug_delete_title">Fjerne stikket?</string>
+    <string name="plug_delete_text">“%1$s” fjernes fra listen. Timere, der allerede er skrevet til stikket, fortsætter med at virke, indtil du ændrer dem.</string>
+    <string name="plug_delete_confirm">Fjern</string>
+    <string name="plug_region_error">Region: LV, EE, LT, FI, SE3, NO1 …</string>
+    <string name="edit_hours">Timer/døgn</string>
+    <string name="edit_limit">Maks €/kWh</string>
+    <string name="edit_unknown">ukendt</string>
+    <string name="legend_cheap">billig</string>
+    <string name="legend_expensive">dyr</string>
+    <string name="legend_on">tændt</string>
+    <string name="plan_covered">Skema: %1$s, %2$s tilbage</string>
+    <string name="plan_today">i dag</string>
+    <string name="plan_today_tomorrow">i dag og i morgen</string>
+    <string name="plan_one_day">1 dag</string>
+    <plurals name="plan_days">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dage</item>
+    </plurals>
+    <string name="sum_on">tændt: %1$s</string>
+    <string name="day_today">i dag %1$s</string>
+    <string name="day_tomorrow">i morgen %1$s</string>
+    <string name="name_preview">Navn til stikket</string>
+    <string name="name_copy">Kopiér navn</string>
+    <string name="plug_open_page">Åbn stikkets webside</string>
+    <string name="name_copied">Navn kopieret. Indsæt det som Device Name i stikkets webgrænseflade, og tryk derefter Find stik.</string>
+    <string name="sum_avg">snit %1$s €/kWh</string>
+    <string name="sum_cheaper">%1$s%% billigere</string>
+    <string name="sum_saves">sparer ≈ %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Indstillinger</string>
+    <string name="set_vat" formatted="false">Moms, %</string>
+    <string name="set_vat_auto">auto</string>
+    <string name="set_refresh">Daglig opdatering</string>
+    <string name="set_hours">Timer/døgn</string>
+    <string name="set_limit">Maks pris, €</string>
+    <string name="set_region">Region</string>
+    <string name="set_watts">Effekt, W</string>
+    <string name="set_watts_none">ikke angivet</string>
+    <string name="set_save">Gem indstillinger</string>
+    <string name="set_hint">Standardværdier for stik, hvis navn ikke angiver dem. Navneeksempel: %1$s</string>
+    <string name="msg_time_invalid">Opdateringstidspunktet skal se ud som 14:05</string>
+    <string name="msg_region_unknown">Ukendt region: %1$s</string>
+    <string name="msg_settings_saved">Indstillinger gemt</string>
+
+    <!-- Durations and switching -->
+    <string name="dur_hm">%1$d t %2$d min</string>
+    <string name="dur_h">%1$d t</string>
+    <string name="dur_m">%1$d min</string>
+    <string name="sw_on_left">TÆNDT i %1$s endnu</string>
+    <string name="sw_on_in">TÆNDER om %1$s</string>
+    <string name="sw_on_today">TÆNDER i dag kl. %1$s</string>
+    <string name="sw_on_tomorrow">TÆNDER i morgen kl. %1$s</string>
+
+    <!-- Background refresh -->
+    <string name="refresh_channel">Skemaopdateringer</string>
+    <string name="refresh_running">Opdaterer stikskemaer…</string>
+    <string name="r_no_plugs">Ingen gemte stik</string>
+    <string name="r_no_region">Angiv regionen i appen eller i enhedsnavnet</string>
+    <string name="r_no_prices">Dagens priser blev ikke modtaget</string>
+    <string name="r_ok">Opdaterede stik: %1$d</string>
+    <string name="r_fail">Mislykkedes: %1$d</string>
+    <string name="r_mixed">Opdateret: %1$d, fejl: %2$d</string>
+
+    <!-- Device errors -->
+    <string name="e_incomplete">Data for %1$s er ufuldstændige: %2$d intervaller mangler. Priserne endnu ikke offentliggjort?</string>
+    <string name="e_http">%1$s returnerede HTTP %2$d</string>
+    <string name="e_no_reply">%1$s svarede ikke: %2$s</string>
+    <string name="e_rejected">%1$s afviste kommandoen: %2$s</string>
+    <string name="e_schedule_rejected">%1$s afviste skemaet</string>
+    <string name="e_too_many_blocks">Flere end %1$d til/fra-blokke — de passer ikke i enhedens skema</string>
+
+    <!-- Network errors, accessibility -->
+    <string name="e_net_timeout">forbindelsen fik timeout</string>
+    <string name="e_net_refused">forbindelsen blev afvist</string>
+    <string name="e_net_unreachable">adressen kan ikke nås — tjek Wi-Fi-forbindelsen</string>
+    <string name="e_net_dns">serveren blev ikke fundet — tjek internetforbindelsen</string>
+    <string name="e_net_io">netværksfejl</string>
+    <string name="e_unknown">uventet fejl</string>
+    <string name="plug_kind_unknown">ukendt type</string>
+    <string name="plug_region_missing">Region ikke angivet</string>
+    <string name="plan_chart_desc">Prisdiagram: %1$s til %2$s €/kWh, tændt i %3$s</string>
+    <string name="e_no_time">%1$s: stikkets ur er ikke indstillet. Forbind det til internettet (NTP), og prøv igen.</string>
+    <string name="plug_unmanaged">Styres ikke — appen rører ikke denne enhed.</string>
+    <string name="plug_manage">Styr dette stik</string>
+    <string name="plug_unmanage">Stop styring</string>
+    <string name="e_wrong_device">%1$s: en anden enhed svarer på denne adresse. Søg efter stik igen.</string>
+</resources>

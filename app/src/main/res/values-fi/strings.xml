@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <string name="cancel">Peruuta</string>
+    <string name="save">Tallenna</string>
+    <string name="msg_error">Virhe: %1$s</string>
+    <string name="msg_failed">Epäonnistui: %1$s</string>
+
+    <!-- Header -->
+    <string name="tagline">Pistorasiat kytkeytyvät päälle, kun sähkö on halvinta</string>
+    <string name="last_run">Viimeisin ajo: %1$s</string>
+    <string name="last_run_info">Viimeisin ajo: %1$s · %2$s</string>
+    <string name="never_run">ei vielä ajettu</string>
+    <string name="next_run">Seuraava päivitys: %1$s</string>
+    <string name="saved_30_days">Säästetty viimeisen 30 päivän aikana: %1$s</string>
+
+    <!-- Update -->
+    <string name="update_title">Päivitys saatavilla</string>
+    <string name="update_text">Versio %1$s on julkaistu. Se asentuu nykyisen päälle; pistorasiat ja asetukset säilyvät.</string>
+    <string name="update_download">Lataa</string>
+    <string name="update_later">Myöhemmin</string>
+    <string name="update_checking">Tarkistetaan…</string>
+    <string name="update_available">Versio %1$s on saatavilla</string>
+    <string name="update_latest">Sinulla on uusin versio</string>
+    <string name="update_failed">Tarkistus ei onnistunut: %1$s</string>
+    <string name="update_channel">Sovelluksen päivitykset</string>
+    <string name="update_notification">Uusi versio on saatavilla — napauta ladataksesi</string>
+
+    <!-- Support -->
+    <string name="support_title">Tue projektia</string>
+    <string name="support_saved">Sovellus säästi sinulle tässä kuussa %1$s.</string>
+    <string name="support_text">Spot Price Plugs on ilmainen, mainokseton ja avoimen lähdekoodin sovellus. Jos se on hyödyllinen, kutsu tekijä kahville — se auttaa lisäämään uusia laitteita ja alueita.</string>
+    <string name="support_bug">Raportoi virhe</string>
+
+    <!-- About -->
+    <string name="about_title">Tietoja</string>
+    <string name="about_version">Versio %1$s</string>
+    <string name="about_check">Tarkista</string>
+    <string name="about_language">Kieli</string>
+    <string name="about_note">Hinta = Nord Pool -pörssihinta + ALV. Suunnitelma käyttää vain tulevia 15 minuutin jaksoja; huomenna lisätään, kun pörssi julkaisee ne (noin klo 13:00 CET). Lisenssi: GNU GPL v3.</string>
+
+    <!-- Permissions -->
+    <string name="perm_title">Käyttöoikeudet</string>
+    <string name="perm_exact">Tarkat hälytykset</string>
+    <string name="perm_background">Taustatoiminta</string>
+    <string name="perm_notifications">Ilmoitukset</string>
+    <string name="perm_allowed">sallittu</string>
+    <string name="perm_denied">estetty</string>
+    <string name="perm_unrestricted">rajoittamaton</string>
+    <string name="perm_restricted">rajoitettu</string>
+    <string name="perm_btn_alarms">Hälytykset</string>
+    <string name="perm_btn_battery">Akku</string>
+    <string name="perm_btn_notifications">Salli ilmoitukset</string>
+    <string name="perm_hint">Ilman näitä oikeuksia Android voi viivyttää päivityksiä tunteja.</string>
+
+    <!-- Network -->
+    <string name="net_title">Verkko</string>
+    <string name="net_subnet">Aliverkko</string>
+    <string name="net_auto">Automaattinen</string>
+    <string name="net_scan">Etsi pistorasiat</string>
+    <string name="net_hint">Puhelimen on oltava samassa Wi-Fi-verkossa kuin pistorasiat. Jo löydetyt pistorasiat säilyvät.</string>
+    <string name="msg_subnet_invalid">Aliverkon on näytettävä muodoltaan 192.168.1</string>
+    <string name="msg_wifi_unknown">Wi-Fi-verkkoa ei voitu tunnistaa</string>
+    <string name="msg_network">Verkko: %1$s.0/24</string>
+    <string name="msg_none_found">Pistorasioita ei löytynyt. Varmista, että puhelin on samassa Wi-Fi-verkossa.</string>
+    <string name="msg_found">Löytyneitä laitteita: %1$d</string>
+    <string name="msg_scan_error">Haku epäonnistui: %1$s</string>
+
+    <!-- Plugs -->
+    <string name="plugs_title">Pistorasiat</string>
+    <string name="plugs_title_count">Pistorasiat (%1$d)</string>
+    <string name="plugs_empty">Täällä ei vielä ole mitään. Kytke Tasmota- tai Shelly-pistorasia virtaan, yhdistä puhelin samaan Wi-Fi-verkkoon ja napauta “Etsi pistorasiat”.</string>
+    <string name="refresh_all">Päivitä kaikki</string>
+    <string name="refresh_sending">Lähetetään…</string>
+    <string name="msg_scan_first">Skannaa verkko ensin</string>
+    <string name="msg_saved_plug">Tallennettu: %1$s</string>
+    <string name="msg_deleted_plug">Poistettu: %1$s</string>
+    <string name="msg_power_on">Pistorasia kytkettiin päälle</string>
+    <string name="msg_power_off">Pistorasia kytkettiin pois</string>
+    <string name="msg_plan_on">Aikataulu jatkuu</string>
+    <string name="msg_plan_off">Aikataulu keskeytetty</string>
+
+    <!-- Plug card -->
+    <string name="plug_region_from_settings">alue asetuksista</string>
+    <string name="plug_on">PÄÄLLÄ</string>
+    <string name="plug_off">POIS</string>
+    <string name="plug_paused">Aikataulu keskeytetty — ajastimet ovat pois, suunnittelija ei ohjaa releä</string>
+    <string name="plug_now_price">Nyt: %1$s €/kWh</string>
+    <string name="plug_saved">Säästetty: tänään %1$s · 7 pv %2$s</string>
+    <string name="plug_updated">Päivitetty %1$s · seuraava %2$s</string>
+    <string name="plug_turn_on">Kytke päälle</string>
+    <string name="plug_turn_off">Kytke pois</string>
+    <string name="plug_pause">Keskeytä suunnitelma</string>
+    <string name="plug_resume">Jatka</string>
+    <string name="plug_params">%1$s h/vrk · max %2$s €</string>
+    <string name="plug_watts">%1$s W</string>
+    <string name="plug_edit">Muokkaa</string>
+    <string name="plug_recalc">Laske uudelleen</string>
+    <string name="plug_delete">Poista pistorasia</string>
+    <string name="plug_delete_title">Poistetaanko pistorasia?</string>
+    <string name="plug_delete_text">“%1$s” poistuu listasta. Pistorasiaan jo kirjoitetut ajastimet jatkavat toimintaa, kunnes muutat niitä.</string>
+    <string name="plug_delete_confirm">Poista</string>
+    <string name="plug_region_error">Alue: LV, EE, LT, FI, SE3, NO1 …</string>
+    <string name="edit_hours">Tuntia/pv</string>
+    <string name="edit_limit">Max €/kWh</string>
+    <string name="edit_unknown">tuntematon</string>
+    <string name="legend_cheap">halpa</string>
+    <string name="legend_expensive">kallis</string>
+    <string name="legend_on">päällä</string>
+    <string name="plan_covered">Suunnitelma: %1$s, jäljellä %2$s</string>
+    <string name="plan_today">tänään</string>
+    <string name="plan_today_tomorrow">tänään ja huomenna</string>
+    <string name="plan_one_day">1 päivä</string>
+    <plurals name="plan_days">
+        <item quantity="one">%1$d päivä</item>
+        <item quantity="other">%1$d päivää</item>
+    </plurals>
+    <string name="sum_on">päällä: %1$s</string>
+    <string name="day_today">tänään %1$s</string>
+    <string name="day_tomorrow">huomenna %1$s</string>
+    <string name="name_preview">Pistorasian nimi</string>
+    <string name="name_copy">Kopioi nimi</string>
+    <string name="plug_open_page">Avaa pistorasian verkkosivu</string>
+    <string name="name_copied">Nimi kopioitu. Liitä se Device Name -kenttään pistorasian verkkokäyttöliittymässä ja napauta sitten “Etsi pistorasiat”.</string>
+    <string name="sum_avg">kesk. %1$s €/kWh</string>
+    <string name="sum_cheaper">%1$s%% halvempi</string>
+    <string name="sum_saves">säästää ≈ %1$s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Asetukset</string>
+    <string name="set_vat" formatted="false">ALV, %</string>
+    <string name="set_vat_auto">auto</string>
+    <string name="set_refresh">Päivittäinen päivitys</string>
+    <string name="set_hours">Tuntia/pv</string>
+    <string name="set_limit">Max hinta, €</string>
+    <string name="set_region">Alue</string>
+    <string name="set_watts">Teho, W</string>
+    <string name="set_watts_none">ei asetettu</string>
+    <string name="set_save">Tallenna asetukset</string>
+    <string name="set_hint">Oletusarvot pistorasioille, joiden nimi ei määritä niitä. Nimen esimerkki: %1$s</string>
+    <string name="msg_time_invalid">Päivitysajan on näytettävä muodoltaan 14:05</string>
+    <string name="msg_region_unknown">Tuntematon alue: %1$s</string>
+    <string name="msg_settings_saved">Asetukset tallennettu</string>
+
+    <!-- Durations and switching -->
+    <string name="dur_hm">%1$d t %2$d min</string>
+    <string name="dur_h">%1$d t</string>
+    <string name="dur_m">%1$d min</string>
+    <string name="sw_on_left">PÄÄLLÄ vielä %1$s</string>
+    <string name="sw_on_in">PÄÄLLÄ %1$s kuluttua</string>
+    <string name="sw_on_today">PÄÄLLÄ tänään klo %1$s</string>
+    <string name="sw_on_tomorrow">PÄÄLLÄ huomenna klo %1$s</string>
+
+    <!-- Background refresh -->
+    <string name="refresh_channel">Aikataulupäivitykset</string>
+    <string name="refresh_running">Päivitetään pistorasioiden aikatauluja…</string>
+    <string name="r_no_plugs">Ei tallennettuja pistorasioita</string>
+    <string name="r_no_region">Aseta alue sovelluksessa tai laitteen nimessä</string>
+    <string name="r_no_prices">Tämän päivän hintoja ei saatu</string>
+    <string name="r_ok">Päivitettyjä pistorasioita: %1$d</string>
+    <string name="r_fail">Epäonnistui: %1$d</string>
+    <string name="r_mixed">Päivitetty: %1$d, virheitä: %2$d</string>
+
+    <!-- Device errors -->
+    <string name="e_incomplete">Tiedot %1$s ovat puutteelliset: puuttuu %2$d jaksoa. Hintojako ei ole vielä julkaistu?</string>
+    <string name="e_http">%1$s palautti HTTP %2$d</string>
+    <string name="e_no_reply">%1$s ei vastannut: %2$s</string>
+    <string name="e_rejected">%1$s hylkäsi komennon: %2$s</string>
+    <string name="e_schedule_rejected">%1$s hylkäsi aikataulun</string>
+    <string name="e_too_many_blocks">Yli %1$d päälle/pois-lohkoa — ne eivät mahdu laitteen aikatauluun</string>
+
+    <!-- Network errors, accessibility -->
+    <string name="e_net_timeout">yhteys aikakatkaistiin</string>
+    <string name="e_net_refused">yhteys evättiin</string>
+    <string name="e_net_unreachable">osoitteeseen ei saada yhteyttä — tarkista Wi-Fi-yhteys</string>
+    <string name="e_net_dns">palvelinta ei löytynyt — tarkista internetyhteys</string>
+    <string name="e_net_io">verkkovirhe</string>
+    <string name="e_unknown">odottamaton virhe</string>
+    <string name="plug_kind_unknown">tuntematon tyyppi</string>
+    <string name="plug_region_missing">Aluetta ei ole asetettu</string>
+    <string name="plan_chart_desc">Hintakaavio: %1$s–%2$s €/kWh, päällä %3$s</string>
+    <string name="e_no_time">%1$s: pistorasian kelloa ei ole asetettu. Yhdistä se internetiin (NTP) ja yritä uudelleen.</string>
+    <string name="plug_unmanaged">Ei ohjata — sovellus ei koske tähän laitteeseen.</string>
+    <string name="plug_manage">Ohjaa tätä pistorasiaa</string>
+    <string name="plug_unmanage">Lopeta ohjaus</string>
+    <string name="e_wrong_device">%1$s: tässä osoitteessa vastaa toinen laite. Hae pistorasiat uudelleen.</string>
+</resources>

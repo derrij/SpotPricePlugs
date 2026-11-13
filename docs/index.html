@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Spot Price Plugs</title>
+  <script>
+    (function () {
+      var lang = null;
+      try { lang = localStorage.getItem("spl-lang"); } catch (e) {}
+      if (!lang) {
+        var map = { lv: "lv", et: "ee", lt: "lt", fi: "fi", sv: "sv", da: "da",
+                    nb: "nb", no: "nb", pl: "pl", de: "de", nl: "nl", fr: "fr",
+                    ru: "ru", uk: "en", en: "en" };
+        var prefs = navigator.languages || [navigator.language || "en"];
+        for (var i = 0; i < prefs.length; i++) {
+          var code = (prefs[i] || "").toLowerCase().split("-")[0];
+          if (map[code]) { lang = map[code]; break; }
+        }
+        if (!lang) lang = "en";
+      }
+      location.replace("./" + lang + "/");
+    })();
+  </script>
+  <meta http-equiv="refresh" content="0; url=en/">
+</head>
+<body>
+  <p>Choose your language:
+    <a href="en/">English</a> ·
+    <a href="ru/">Русский</a> ·
+    <a href="lv/">Latviešu</a> ·
+    <a href="ee/">Eesti</a> ·
+    <a href="lt/">Lietuvių</a> ·
+    <a href="fi/">Suomi</a> ·
+    <a href="sv/">Svenska</a> ·
+    <a href="da/">Dansk</a> ·
+    <a href="nb/">Norsk</a> ·
+    <a href="pl/">Polski</a> ·
+    <a href="de/">Deutsch</a> ·
+    <a href="nl/">Nederlands</a> ·
+    <a href="fr/">Français</a>
+  </p>
+</body>
+</html>
