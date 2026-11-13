@@ -4,6 +4,7 @@ lang: da
 home: /da/
 blog: /da/blog/
 title: Blog
+description: "Praktiske guides om Nord Pool-priser, smarte stik og rigtig besparelse."
 permalink: /da/blog/
 ---
 

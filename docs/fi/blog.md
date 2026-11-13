@@ -4,6 +4,7 @@ lang: fi
 home: /fi/
 blog: /fi/blog/
 title: Blogi
+description: "Käytännön oppaat Nord Pool -hinnoista, älypistorasioista ja oikeista säästöistä."
 permalink: /fi/blog/
 ---
 

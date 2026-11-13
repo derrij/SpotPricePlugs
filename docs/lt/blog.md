@@ -4,6 +4,7 @@ lang: lt
 home: /lt/
 blog: /lt/blog/
 title: Tinklaraštis
+description: "Praktiniai gidai apie Nord Pool kainas, išmaniąsias rozetes ir realų taupymą."
 permalink: /lt/blog/
 ---
 

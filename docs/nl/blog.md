@@ -4,6 +4,7 @@ lang: nl
 home: /nl/
 blog: /nl/blog/
 title: Blog
+description: "Praktische gidsen over Nord Pool-prijzen, slimme stekkers en echte besparing."
 permalink: /nl/blog/
 ---
 

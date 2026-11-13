@@ -4,6 +4,7 @@ lang: ru
 home: /ru/
 blog: /ru/blog/
 title: Блог
+description: "Практические руководства о ценах Nord Pool, умных розетках и реальной экономии."
 permalink: /ru/blog/
 ---
 

@@ -8,3 +8,9 @@ exclude: [DETAILS.md, DETAILS.en.md, screen-*.png]
 # Generates /sitemap.xml (referenced from robots.txt); supported by GitHub Pages.
 plugins:
   - jekyll-sitemap
+# Keep the language redirect and the Search Console verification file out of the sitemap.
+defaults:
+  - scope: { path: "index.html" }
+    values: { sitemap: false }
+  - scope: { path: "googleab46e78c29826b04.html" }
+    values: { sitemap: false }

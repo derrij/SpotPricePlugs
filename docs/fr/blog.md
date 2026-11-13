@@ -4,6 +4,7 @@ lang: fr
 home: /fr/
 blog: /fr/blog/
 title: Blog
+description: "Guides pratiques sur les prix Nord Pool, les prises connectées et les vraies économies."
 permalink: /fr/blog/
 ---
 

@@ -4,6 +4,7 @@ lang: en
 home: /en/
 blog: /en/blog/
 title: Blog
+description: "Practical guides on Nord Pool prices, smart plugs and real savings."
 permalink: /en/blog/
 ---
 

@@ -4,6 +4,7 @@ lang: lv
 home: /lv/
 blog: /lv/blog/
 title: Blogs
+description: "Praktiski ceļveži par Nord Pool cenām, viedrozetēm un reālu ietaupījumu."
 permalink: /lv/blog/
 ---
 

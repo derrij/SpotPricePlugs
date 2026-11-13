@@ -4,6 +4,7 @@ lang: de
 home: /de/
 blog: /de/blog/
 title: Blog
+description: "Praktische Leitfäden zu Nord Pool-Preisen, intelligenten Steckdosen und echter Ersparnis."
 permalink: /de/blog/
 ---
 

@@ -17,36 +17,66 @@
 {%- comment -%} The Estonian section lives in /ee/, but the language code is "et" ("ee" is Ewe). {%- endcomment -%}
 {%- if L == 'ee' -%}{%- assign html_lang = 'et' -%}{%- else -%}{%- assign html_lang = L -%}{%- endif -%}
 {%- assign langs = "en,ru,lv,ee,lt,fi,sv,da,nb,pl,de,nl,fr" | split: "," -%}
+{%- comment -%} Description: front matter, else the post's first paragraph, else the site-wide one. {%- endcomment -%}
+{%- assign desc = page.description -%}
+{%- if desc == nil and page.collection == 'posts' -%}
+  {%- assign desc = page.excerpt | strip_html | normalize_whitespace | truncate: 160 -%}
+{%- endif -%}
+{%- assign desc = desc | default: site.description | escape_once -%}
+{%- assign title = page.title | default: 'Spot Price Plugs' | escape_once -%}
+{%- assign canonical = site.url | append: site.baseurl | append: page.url -%}
+{%- assign og_image = site.url | append: site.baseurl | append: '/og-image.png' -%}
+{%- comment -%} The same page in other languages: same path under another /lang/ prefix, if it exists. {%- endcomment -%}
+{%- assign prefix = "/" | append: L | append: "/" -%}
+{%- assign url_head = page.url | slice: 0, prefix.size -%}
+{%- assign alt_count = 0 -%}
+{%- assign has_en = false -%}
+{%- if url_head == prefix -%}
+  {%- assign rest = page.url | remove_first: prefix -%}
+  {%- assign all_pages = site.html_pages | concat: site.posts -%}
+  {%- capture alternates -%}
+    {%- for l in langs -%}
+      {%- assign cand = "/" | append: l | append: "/" | append: rest -%}
+      {%- assign hit = all_pages | where: "url", cand | first -%}
+      {%- if hit -%}
+        {%- assign alt_count = alt_count | plus: 1 -%}
+        {%- if l == 'en' -%}{%- assign has_en = true -%}{%- endif -%}
+        {%- if l == 'ee' -%}{%- assign hl = 'et' -%}{%- else -%}{%- assign hl = l -%}{%- endif %}
+  <link rel="alternate" hreflang="{{ hl }}" href="{{ site.url }}{{ site.baseurl }}{{ cand }}">
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if has_en %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}/en/{{ rest }}">
+    {%- endif -%}
+  {%- endcapture -%}
+{%- endif -%}
 <!DOCTYPE html>
 <html lang="{{ html_lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}Spot Price Plugs</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <meta property="og:type" content="website">
+  <title>{% if page.title %}{{ title }} · {% endif %}Spot Price Plugs</title>
+  <meta name="description" content="{{ desc }}">
+  <meta property="og:type" content="{% if page.collection == 'posts' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="Spot Price Plugs">
-  <meta property="og:title" content="{{ page.title | default: 'Spot Price Plugs' }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/og-image.png">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ desc }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ og_image }}">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title | default: 'Spot Price Plugs' }}">
-  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/og-image.png">
-  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-  {%- assign home_url = "/" | append: L | append: "/" -%}
-  {%- assign blog_url = home_url | append: "blog/" -%}
-  {%- if page.url == home_url or page.url == blog_url -%}
-    {%- for l in langs -%}
-      {%- if l == 'ee' -%}{%- assign hl = 'et' -%}{%- else -%}{%- assign hl = l -%}{%- endif -%}
-      {%- if page.url == home_url %}
-  <link rel="alternate" hreflang="{{ hl }}" href="{{ site.url }}{{ site.baseurl }}/{{ l }}/">
-      {%- else %}
-  <link rel="alternate" hreflang="{{ hl }}" href="{{ site.url }}{{ site.baseurl }}/{{ l }}/blog/">
-      {%- endif -%}
-    {%- endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}/en/{% if page.url == blog_url %}blog/{% endif %}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ desc }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  <link rel="canonical" href="{{ canonical }}">
+  {%- if alt_count > 1 -%}{{ alternates }}{%- endif %}
+  {%- if page.collection == 'posts' %}
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BlogPosting","headline":{{ page.title | jsonify }},"description":{{ desc | jsonify }},"datePublished":"{{ page.date | date: '%Y-%m-%d' }}","inLanguage":"{{ html_lang }}","image":"{{ og_image }}","mainEntityOfPage":"{{ canonical }}","author":{"@type":"Organization","name":"Spot Price Plugs","url":"{{ site.url }}{{ site.baseurl }}/"}}
+  </script>
+  {%- elsif page.url == prefix %}
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Spot Price Plugs","description":{{ desc | jsonify }},"operatingSystem":"Android 8.0+","applicationCategory":"UtilitiesApplication","inLanguage":"{{ html_lang }}","url":"{{ canonical }}","image":"{{ og_image }}","downloadUrl":"https://github.com/derrij/SpotPricePlugs/releases/latest","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}}
+  </script>
   {%- endif %}
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
   <style>

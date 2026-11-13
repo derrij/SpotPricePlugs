@@ -4,6 +4,7 @@ lang: nb
 home: /nb/
 blog: /nb/blog/
 title: Blogg
+description: "Praktiske veiledninger om Nord Pool-priser, smarte kontakter og ekte besparelser."
 permalink: /nb/blog/
 ---
 

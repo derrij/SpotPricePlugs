@@ -4,6 +4,7 @@ lang: pl
 home: /pl/
 blog: /pl/blog/
 title: Blog
+description: "Praktyczne poradniki o cenach Nord Pool, inteligentnych gniazdkach i realnych oszczędnościach."
 permalink: /pl/blog/
 ---
 

@@ -4,6 +4,7 @@ lang: ee
 home: /ee/
 blog: /ee/blog/
 title: Blogi
+description: "Praktilised juhendid Nord Pool hindadest, nutipistikutest ja päris säästust."
 permalink: /ee/blog/
 ---
 

@@ -4,6 +4,7 @@ lang: sv
 home: /sv/
 blog: /sv/blog/
 title: Blogg
+description: "Praktiska guider om Nord Pool-priser, smarta kontakter och verkliga besparingar."
 permalink: /sv/blog/
 ---
 
