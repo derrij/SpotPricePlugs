@@ -227,6 +227,14 @@ object Tasmota {
         return text
     }
 
+    /**
+     * OpenBeken prints an empty second SSID in `Status 0` as `"SSId2":""""`,
+     * which no JSON parser accepts, so the plug would be skipped by the scan.
+     * Four quotes in a row never occur in valid JSON, so collapsing them to
+     * an empty string is safe.
+     */
+    internal fun repairJson(text: String): String = text.replace("\"\"\"\"", "\"\"")
+
     private fun httpGet(url: String, connectMs: Int, readMs: Int): String? {
         val conn = URL(url).openConnection() as HttpURLConnection
         conn.connectTimeout = connectMs
@@ -236,7 +244,7 @@ object Tasmota {
             if (conn.responseCode !in 200..299) {
                 null
             } else {
-                conn.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() }
+                repairJson(conn.inputStream.bufferedReader(Charsets.UTF_8).use { it.readText() })
             }
         } catch (e: Exception) {
             null
